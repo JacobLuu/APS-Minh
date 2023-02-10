@@ -12,6 +12,7 @@ import { COLOR_PRIMARY } from "../../../../themes/colors";
 import { CategoryScore } from "../../../../types/category_score";
 import { FactorScoreChildrenType } from "../../../../types/factor_score";
 import AddAnswersModal from "../AddAnswersModal";
+import { nullishCoalescing } from "../../../../utils/miscellaneous";
 import {
   DashboardTableCellScore,
   TableCellCompany,
@@ -30,6 +31,11 @@ interface ICompanyRow {
   getRankingList: () => void;
   selectedColumnIndex: number;
 }
+
+function localNullishCoalescing(value) {
+  return nullishCoalescing(value, "-");
+}
+
 const CompanyRow = (props: ICompanyRow) => {
   const {
     category_scores,
@@ -47,7 +53,7 @@ const CompanyRow = (props: ICompanyRow) => {
   const [isModalOpened, setIsModalOpened] = useState<boolean>(false);
   const [categoryScoreId, setCategoryScoreId] = useState<number>(null);
   const [categoryLabel, setCategoryLabel] = useState("");
-
+  const [shouldDisplayRank, setShouldDisplayRank] = React.useState(false);
   const handleClickScore = (companyId, categoryId, categoryScoreId) => {
     if (location.pathname === RANK_PERFORMANCE_PATH) {
       setCategoryScoreId(categoryScoreId);
@@ -69,11 +75,42 @@ const CompanyRow = (props: ICompanyRow) => {
     }
   };
 
+  const overallScore = localNullishCoalescing(company_score_overall_score);
+
+  React.useEffect(() => {
+    let activeColumnValue;
+    // Check which column is active to decide activeColumnValue
+    if (selectedColumnIndex === ColumnIndex.Environmental) {
+      activeColumnValue = localNullishCoalescing(
+        category_scores[0]?.overall_score
+      );
+    } else if (selectedColumnIndex === ColumnIndex.Social) {
+      activeColumnValue = localNullishCoalescing(
+        category_scores[1]?.overall_score
+      );
+    } else if (selectedColumnIndex === ColumnIndex.Governance) {
+      activeColumnValue = localNullishCoalescing(
+        category_scores[2]?.overall_score
+      );
+    } else {
+      activeColumnValue = overallScore;
+    }
+    if (activeColumnValue === "-") {
+      setShouldDisplayRank(false);
+    } else {
+      setShouldDisplayRank(true);
+    }
+  }, [category_scores]);
+
   return (
     <React.Fragment>
       <TableRow>
         {shouldShowRankColumn && (
-          <TableCellRank align="left">{rankingOrderInSector}</TableCellRank>
+          <TableCellRank align="left">
+            {shouldDisplayRank && +rankingOrderInSector > 0
+              ? rankingOrderInSector
+              : ""}
+          </TableCellRank>
         )}
         <TableCellCompany align="left">
           <Link
@@ -89,7 +126,7 @@ const CompanyRow = (props: ICompanyRow) => {
           align="center"
           $isActive={selectedColumnIndex === ColumnIndex.OverallScore}
         >
-          {company_score_overall_score || "-"}
+          {overallScore}
         </TableCellRank>
         {location.pathname === RANK_PERFORMANCE_PATH ? (
           <>
@@ -104,7 +141,7 @@ const CompanyRow = (props: ICompanyRow) => {
                 )
               }
             >
-              {category_scores[0]?.overall_score || "-"}
+              {localNullishCoalescing(category_scores[0]?.overall_score)}
             </TableCellScore>
             <TableCellScore
               $isActive={selectedColumnIndex === ColumnIndex.Social}
@@ -117,7 +154,7 @@ const CompanyRow = (props: ICompanyRow) => {
                 )
               }
             >
-              {category_scores[1]?.overall_score || "-"}
+              {localNullishCoalescing(category_scores[1]?.overall_score)}
             </TableCellScore>
             <TableCellScore
               $isActive={selectedColumnIndex === ColumnIndex.Governance}
@@ -130,19 +167,19 @@ const CompanyRow = (props: ICompanyRow) => {
                 )
               }
             >
-              {category_scores[2]?.overall_score || "-"}
+              {localNullishCoalescing(category_scores[2]?.overall_score)}
             </TableCellScore>
           </>
         ) : (
           <>
             <DashboardTableCellScore align="center">
-              {category_scores[0]?.overall_score || "-"}
+              {localNullishCoalescing(category_scores[0]?.overall_score)}
             </DashboardTableCellScore>
             <DashboardTableCellScore align="center">
-              {category_scores[1]?.overall_score || "-"}
+              {localNullishCoalescing(category_scores[1]?.overall_score)}
             </DashboardTableCellScore>
             <DashboardTableCellScore align="center">
-              {category_scores[2]?.overall_score || "-"}
+              {localNullishCoalescing(category_scores[2]?.overall_score)}
             </DashboardTableCellScore>
           </>
         )}

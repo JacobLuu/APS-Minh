@@ -24,7 +24,7 @@ import {
 import membersService from "../services/members";
 
 import type { Language, LoginForm, UpdateUserForm, UserState } from "../types";
-
+import { resetTokenExpiredToFalse } from "../reducers/shared";
 // The parameter is automatically provided to the saga when its called inside takeEvery
 // https://redux-saga.js.org/docs/api#takeeverypattern-saga-args
 function* loginFlow(data: PayloadAction<LoginForm>) {
@@ -53,6 +53,9 @@ function* loginFlow(data: PayloadAction<LoginForm>) {
           xAuthToken: xAuthToken,
           organization: response.data.organization,
         },
+      });
+      yield put({
+        type: resetTokenExpiredToFalse.type,
       });
     } else {
       yield put({

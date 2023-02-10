@@ -73,8 +73,9 @@ export const useLanguage = () => {
 
   useEffect(() => {
     if (language) {
-      i18n.changeLanguage(language);
       localStorage.setItem(CACHED_LANGUAGE, language);
+      i18n.changeLanguage(language);
+      changeMomentLocale(language);
     } else {
       const cached_language = localStorage.getItem(CACHED_LANGUAGE);
       const new_language = LanguageEnum[LanguageEnum[cached_language]];

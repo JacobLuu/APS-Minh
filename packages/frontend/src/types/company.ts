@@ -36,6 +36,7 @@ export interface CompanyBase extends BaseModel {
   name: string;
   name_cn: string;
   ticker: string;
+  pinyin_shortcut?: string;
 }
 
 export interface CompaniesState {

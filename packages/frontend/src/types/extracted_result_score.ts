@@ -7,6 +7,7 @@ export interface ExtractedResultScore extends BaseModel {
   edit_history: History;
   extracted_result: ExtractedResult;
   extracted_result_pages: ExtractedResultPage[];
+  document?: { url: string; source_path?: string };
   overall_score: number;
   source?: string;
   weightage: number;

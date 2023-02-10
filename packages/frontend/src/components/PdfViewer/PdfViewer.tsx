@@ -297,6 +297,14 @@ const PdfViewer = (props: PdfViewerProps) => {
           <Text component="span" style={{ fontWeight: 700 }}>{`${t(
             "company:pdf_viewer.page"
           )} ${navigationPagesList[currentExtractedResultIndex]}`}</Text>
+          <Text component="p">
+            <a
+              href={`${extracted_result_score?.document?.source_path}#page=${navigationPagesList[currentExtractedResultIndex]}`}
+              target="_blank"
+            >
+              {t("company:source_view_mode.source_link")}
+            </a>
+          </Text>
         </GridItem>
 
         <GridItem

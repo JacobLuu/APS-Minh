@@ -50,6 +50,7 @@ const ProfileUpdatePassword = () => {
     trigger,
     formState: { isValid, errors },
   } = useForm({
+    mode: "onChange",
     defaultValues: {
       old_password: "",
       new_password: "",
@@ -88,11 +89,8 @@ const ProfileUpdatePassword = () => {
     [fields]
   );
 
-  const isNewAndRepeatedPasswordEqualError = useMemo(
-    () =>
-      hasValidValue(fields.repeatedPassword) && !isNewAndRepeatedPasswordEqual,
-    [fields]
-  );
+  const isNewAndRepeatedPasswordEqualError =
+    hasValidValue(fields.repeatedPassword) && !isNewAndRepeatedPasswordEqual;
 
   const resetPassword = async (data) => {
     dispatch(
@@ -126,7 +124,9 @@ const ProfileUpdatePassword = () => {
   }, [user.loginStatus]);
 
   const setFormValue = async (name, value) => {
-    setValue(name, value);
+    setValue(name, value, {
+      shouldValidate: true,
+    });
     await trigger();
   };
 
@@ -335,7 +335,11 @@ const ProfileUpdatePassword = () => {
               type="submit"
               variant="contained"
               color="primary"
-              disabled={!isValid || !isNewAndRepeatedPasswordEqual}
+              disabled={
+                !isValid ||
+                !isNewAndRepeatedPasswordEqual ||
+                isOldAndNewPasswordEqualError
+              }
             >
               {t("profile:change_password.save")}
             </SubmitButton>

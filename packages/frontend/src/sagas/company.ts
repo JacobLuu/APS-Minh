@@ -46,6 +46,9 @@ function* getCompanyDetailsFlow(
     category_id?: number;
   }>
 ) {
+  if (isNaN(Number(action.payload?.company_id))) {
+    throw Error(`The company_id of ${action.payload.company_id} is not valid`);
+  }
   try {
     const response: AxiosResponse<CompanyDetailsState> = yield call(
       companyService.getCompanyDetails,

@@ -92,3 +92,8 @@ export const searchParamsToObject = (stringParam: string): Object => {
     return {};
   }
 };
+
+// Todo: config tsconfig and babel to enable nullishCoalescing feature
+export const nullishCoalescing = (value, replacingValue = "") => {
+  return !!value || value === 0 ? value : replacingValue;
+};

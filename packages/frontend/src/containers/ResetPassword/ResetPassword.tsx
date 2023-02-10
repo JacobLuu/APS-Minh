@@ -94,7 +94,9 @@ const ResetPassword = () => {
   };
 
   const setFormValue = async (name, value) => {
-    setValue(name, value);
+    setValue(name, value, {
+      shouldValidate: true,
+    });
     await trigger();
   };
 

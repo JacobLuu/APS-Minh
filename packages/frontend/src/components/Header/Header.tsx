@@ -22,6 +22,7 @@ import {
 } from "../../constants/paths";
 import CompanySearch from "../../containers/Dashboard/components/CompanySearch";
 import { selectCompanies } from "../../reducers/companies";
+import { selectSharedState } from "../../reducers/shared";
 import {
   logout as logoutAction,
   selectUser,
@@ -37,12 +38,16 @@ import {
   UserInformationContainer,
 } from "./styles";
 import { organization1 } from "../../constants/framework";
+import { toast } from "react-toastify";
+import PriorityHighIcon from "@material-ui/icons/PriorityHigh";
+import CustomToastContainer from "../../components/CustomToastContainer";
 
 const Header = () => {
   const history = useHistory();
   const location = useLocation();
   const dispatch = useAppDispatch();
   const { list } = useAppSelector(selectCompanies);
+  const { isTokenExpired } = useAppSelector(selectSharedState);
   const { t } = useTranslation();
   const { loginStatus, organization } = useAppSelector(selectUser);
   const hasAccessToken = localStorage.getItem(ACCESS_TOKEN);
@@ -101,6 +106,26 @@ const Header = () => {
       history.push(LOGIN_PATH);
     }
   };
+
+  React.useEffect(() => {
+    if (isTokenExpired) {
+      localStorage.removeItem(ACCESS_TOKEN);
+      toast(
+        <CustomToastContainer
+          Icon={<PriorityHighIcon />}
+          title={"Session expired"}
+          message={"Please log in again"}
+        />,
+        {
+          position: toast.POSITION.TOP_RIGHT,
+          autoClose: 3000,
+          hideProgressBar: true,
+          closeButton: false,
+        }
+      );
+      history.push(LOGIN_PATH);
+    }
+  }, [isTokenExpired]);
 
   return (
     <Container>

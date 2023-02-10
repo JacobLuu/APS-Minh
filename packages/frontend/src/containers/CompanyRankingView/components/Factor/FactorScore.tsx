@@ -10,6 +10,7 @@ import { Factor } from "../../../../types";
 import FactorPage from "../../../Company/components/FactorPage";
 import { TableCellCompany, TableCellRank, TableCellScore } from "./styles";
 import FactorInformation from "../FactorInformation/FactorInformation";
+import { nullishCoalescing } from "../../../../utils/miscellaneous";
 
 interface HeaderProps {
   company_name: string;
@@ -67,6 +68,7 @@ const FactorScore = (props: IFactor) => {
     React.useState<number>(undefined);
   const [isFactorScoreAddedSuccessfully, setIsFactorScoreAddedSuccessfully] =
     React.useState<boolean>(false);
+  const [shouldDisplayRank, setShouldDisplayRank] = React.useState(true);
 
   const reloadPage = () => {
     setIsFactorScoreAddedSuccessfully(true);
@@ -80,10 +82,35 @@ const FactorScore = (props: IFactor) => {
     if (!factorScoreToEdit && isFactorScoreAddedSuccessfully)
       window.location.reload();
   }, [factorScoreToEdit]);
+
+  React.useEffect(() => {
+    const activeFactor = factors.find((factor) => {
+      return factor?.factor_id === selectedColumnIndex;
+    });
+    if (activeFactor) {
+      const activeFactorScore = nullishCoalescing(
+        activeFactor.factor_overall_score
+      );
+      if (activeFactorScore === "") {
+        setShouldDisplayRank(false);
+      }
+    }
+  }, [factors, selectedColumnIndex]);
+
+  React.useEffect(() => {
+    if (isFactorScoreAddedSuccessfully) {
+      window.location.reload();
+    }
+  }, [isFactorScoreAddedSuccessfully]);
+
   return (
     <TableRow>
       {shouldShowRankColumn && (
-        <TableCellRank align="left">{rankingOrderInSector}</TableCellRank>
+        <TableCellRank align="left">
+          {shouldDisplayRank && rankingOrderInSector > 0
+            ? rankingOrderInSector
+            : ""}
+        </TableCellRank>
       )}
       <TableCellCompany align="left">
         <Link
@@ -108,7 +135,7 @@ const FactorScore = (props: IFactor) => {
           align="center"
           onClick={() => handleOpenFactorModal(factor.factor_weightage, factor)}
         >
-          {factor.factor_overall_score || "-"}
+          {nullishCoalescing(factor.factor_overall_score, "-")}
         </TableCellScore>
       ))}
       {factorScoreToEdit && (

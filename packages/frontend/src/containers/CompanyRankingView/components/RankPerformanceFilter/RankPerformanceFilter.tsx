@@ -23,7 +23,8 @@ import {
 } from "../../../../reducers/companies";
 import type { Sector } from "../../../../types";
 import { useAppDispatch } from "../../../../store/hooks";
-
+import type { CompanyBase } from "../../../../types";
+import { useLabelTranslation } from "../../../../utils/customHooks";
 interface IRankPerformanceFilter {
   sectors: Sector[];
   keyword: string;
@@ -45,9 +46,17 @@ const RankPerformanceFilter = (props: IRankPerformanceFilter) => {
   const { t } = useTranslation();
   const dispatch = useAppDispatch();
   const companies = useSelector(selectCompanies);
-  const companyNames = companies.list.map((companies) => companies.name);
+  const { translateCompanyName } = useLabelTranslation();
+
   const filterOptions = createFilterOptions({
     trim: true,
+    stringify: (option: CompanyBase) => {
+      if (option) {
+        return `${option.ticker} ${option.name} ${
+          option.pinyin_shortcut || ""
+        }`;
+      }
+    },
   });
   const handleChangeItem = (e) => {
     const { value } = e.target;
@@ -82,8 +91,10 @@ const RankPerformanceFilter = (props: IRankPerformanceFilter) => {
             <RankingSearchBox>
               <Autocomplete
                 id="category-filter-box"
-                options={companyNames}
-                getOptionLabel={(option) => option}
+                options={companies.list}
+                getOptionLabel={(option) =>
+                  translateCompanyName(option).toUpperCase()
+                }
                 defaultChecked
                 forcePopupIcon={false}
                 clearOnBlur

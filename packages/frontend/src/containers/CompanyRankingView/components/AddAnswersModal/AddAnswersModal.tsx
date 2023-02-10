@@ -201,37 +201,18 @@ const Body = (props: BodyProps) => {
                     return (
                       <>
                         <ScoreField
-                          style={{
-                            background:
-                              getValues(
-                                `factors.${index}.factor_score.qualitative_score.questionnaire_scores`
-                              ).length === 0
-                                ? COLOR_DISABLED_INPUT
-                                : "",
-                          }}
                           type="number"
                           onChange={(e) => {
                             if (e.target.value === "0") field.onChange(0);
                             else if (e.target.value === "") field.onChange("");
                             else field.onChange(Number(e.target.value));
                           }}
-                          value={
-                            getValues(
-                              `factors.${index}.factor_score.qualitative_score.questionnaire_scores`
-                            ).length === 0
-                              ? ""
-                              : field.value || "0"
-                          }
+                          value={field.value}
                           inputRef={field.ref}
                           name={field.name}
                           id={field.name}
                           variant="outlined"
                           error={fieldState.error?.type === MAXLENGTH}
-                          disabled={
-                            getValues(
-                              `factors.${index}.factor_score.qualitative_score.questionnaire_scores`
-                            ).length <= 0
-                          }
                         />
                       </>
                     );

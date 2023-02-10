@@ -76,7 +76,9 @@ const ForgetPasswordForm = (props: ForgetPasswordFormProps) => {
     if (data.value === "") {
       reset();
     } else {
-      setValue(data.field, data.value);
+      setValue(data.field, data.value, {
+        shouldValidate: true,
+      });
     }
     trigger();
   };

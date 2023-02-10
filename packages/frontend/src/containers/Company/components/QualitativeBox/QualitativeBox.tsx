@@ -170,12 +170,10 @@ const QualitativeBox = (props: QualitativeBoxProps) => {
       <Header qualitative_score={qualitative_score} />
       <Body questionnaire_scores={questionnaire_scores} />
 
-      {questionnaire_scores.length !== 0 && (
-        <Action
-          setIsAddScoreModalOpen={setIsAddScoreModalOpen}
-          isDisabled={Boolean(currentUserAnswer)}
-        />
-      )}
+      <Action
+        setIsAddScoreModalOpen={setIsAddScoreModalOpen}
+        isDisabled={Boolean(currentUserAnswer)}
+      />
 
       {answers.map((answer) => (
         <Answer

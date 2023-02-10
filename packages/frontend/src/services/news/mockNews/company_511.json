@@ -1,0 +1,104 @@
+{
+  "company": {
+    "id": 509,
+    "name": "Shell"
+  },
+  "news": [
+    {
+      "id": 216482,
+      "published_at": 1670421705,
+      "source_name": "Business Review",
+      "stock_pictures": [
+        {
+          "id": 42405,
+          "s3_path": "https://media.business-review.eu/unsafe/420x250/smart/filters:contrast(5):quality(80)/business-review.eu/wp-content/uploads/2022/12/Gama-Resource.png"
+        }
+      ],
+      "title": "Nestlé brings to the Romanian market Resource – recommended foods for the dietary regime of malnutrition for oncological patients",
+      "url": "https://business-review.eu/lifestyle/food-and-drinks/nestle-brings-to-the-romanian-market-resource-recommended-foods-for-the-dietary-regime-of-malnutrition-for-oncological-patients-239461"
+    },
+    {
+      "id": 213983,
+      "published_at": 1670342375,
+      "source_name": "Forbes",
+      "stock_pictures": [
+        {
+          "id": 41867,
+          "s3_path": "https://imageio.forbes.com/specials-images/imageserve/63932a77b68a4292eeb13be4/Renewables-like-solar-were-highly-rated-/960x0.jpg?format=jpg&width=960"
+        }
+      ],
+      "title": "Beyond ESG —Rating Corporations’ Impact On Society And The Earth",
+      "url": "https://www.forbes.com/sites/tomgroenfeldt/2022/12/09/beyond-esg--rating-corporations-impact-on-society-and-the-earth/?sh=345a37fe5574"
+    },
+    {
+      "id": 209752,
+      "published_at": 1670153657,
+      "source_name": "Forbes",
+      "stock_pictures": [
+        {
+          "id": 40766,
+          "s3_path": "https://imageio.forbes.com/specials-images/imageserve/637d00a53aec7f49e3588241/TOPSHOT-US-TWITTER-MUSK-INTERNET-JUSTICE/960x0.jpg?format=jpg&width=960"
+        }
+      ],
+      "title": "Advertisers Hit The Pause Button With Twitter",
+      "url": "https://www.forbes.com/sites/bradadgate/2022/11/22/advertisers-hit-the-pause-button-with-twitter/?sh=104b569339f6"
+    },
+    {
+      "id": 207076,
+      "published_at": 1670026917,
+      "source_name": "Forbes",
+      "stock_pictures": [
+        {
+          "id": 39925,
+          "s3_path": "https://imageio.forbes.com/specials-images/imageserve/6373b7b4136efcae1661196b/beyond2-jpeg/960x0.png?format=png&width=960"
+        }
+      ],
+      "title": "Beyond Meat Is Looking For Beyond Steak To Boost Revenue",
+      "url": "https://www.forbes.com/sites/garystern/2022/12/08/beyond-meats-is-looking-for-beyond-steak-to-boost-revenue/?sh=3fac2e9948d7"
+    },
+    {
+      "id": 207075,
+      "published_at": 1670026916,
+      "source_name": "Business Review",
+      "stock_pictures": [
+        {
+          "id": 39924,
+          "s3_path": "https://media.business-review.eu/unsafe/420x250/smart/filters:contrast(5):quality(80)/business-review.eu/wp-content/uploads/2022/10/Fotografie-Silvia-rezultate.jpg"
+        }
+      ],
+      "title": "Nestlé reports nine-month sales for 2022",
+      "url": "https://business-review.eu/business/nestle-reports-nine-month-sales-for-2022-236651"
+    },
+    {
+      "id": 207074,
+      "published_at": 1670026916,
+      "source_name": "CNBC",
+      "stock_pictures": [
+        {
+          "id": 39923,
+          "s3_path": "https://image.cnbcfm.com/api/v1/image/107162886-1670442611689-gettyimages-911906836-99156241.jpeg?v=1670444795&w=929&h=523&vtcrop=y"
+        }
+      ],
+      "title": "Candy maker Ferrero to buy Halo Top owner, expanding North American business",
+      "url": "https://www.cnbc.com/2022/12/07/ferrero-to-buy-halo-top-owner-wells-to-further-us-expansion.html"
+    },
+    {
+      "id": 207073,
+      "published_at": 1670026915,
+      "source_name": "CNBC",
+      "stock_pictures": [
+        {
+          "id": 39922,
+          "s3_path": "https://image.cnbcfm.com/api/v1/image/107016706-1645102614270-gettyimages-1136263620-AFP_1FK42V.jpeg?v=1645102664&w=929&h=523&vtcrop=y"
+        }
+      ],
+      "title": "Nestle CEO open to doing a ‘big deal’ after cutting L’Oreal stake",
+      "url": "https://www.cnbc.com/2022/02/17/nestle-ceo-open-to-doing-a-big-deal-after-cutting-loreal-stake.html"
+    }
+  ],
+  "pagination": {
+    "limit": 16,
+    "offset": 0,
+    "total_count": 7
+  }
+}

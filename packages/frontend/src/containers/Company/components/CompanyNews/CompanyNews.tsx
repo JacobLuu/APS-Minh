@@ -9,13 +9,18 @@ import Skeleton from "@material-ui/lab/Skeleton";
 import { esg_default } from "../../../../assets/images";
 import Text from "../../../../components/Text";
 import { COMPANY_NEWS_PATH } from "../../../../constants/paths";
-import { getNewsRequested, selectNews } from "../../../../reducers/news";
+import {
+  getNewsRequested,
+  selectNews,
+  getMockNewsRequested,
+} from "../../../../reducers/news";
 import { useAppDispatch, useAppSelector } from "../../../../store/hooks";
 import { COLOR_PRIMARY, WHITE } from "../../../../themes/colors";
 import { RequestStates } from "../../../../types/request";
 import { getFormattedDate } from "../../../../utils/date";
 
 import type { News as NewsType } from "../../../../types";
+import { listMockedCompanyId } from "../../../CompanyNews/components/CompanyNewsDetail/CompanyNewsDetail";
 
 interface NewsProps {
   news: NewsType;
@@ -96,13 +101,17 @@ const CompanyNews = () => {
   const params = useParams<{ companyId: string }>();
 
   useEffect(() => {
-    dispatch(
-      getNewsRequested({
-        companyId: Number(params.companyId),
-        offset: 0,
-        limit: 5,
-      })
-    );
+    if (listMockedCompanyId.includes(+params.companyId)) {
+      dispatch(getMockNewsRequested(+params.companyId));
+    } else {
+      dispatch(
+        getNewsRequested({
+          companyId: Number(params.companyId),
+          offset: 0,
+          limit: 5,
+        })
+      );
+    }
   }, [params.companyId]);
 
   return (

@@ -82,7 +82,7 @@ const CompanyRankingView = () => {
   } = useAppSelector(selectCompanyRankingCategoryView);
   const {
     rankingList: rankingListFactoryView,
-    totalCount: totalCountFactoryView,
+    totalCount: totalCountFactorView,
   } = useAppSelector(selectCompanyRankingFactoryView);
   const dispatch = useAppDispatch();
   const { selectedTab, handleChangeTab } = useSelectedTab(
@@ -265,8 +265,8 @@ const CompanyRankingView = () => {
     if (selectedTab === `${SettingsTabValue.OverallScore}`) {
       return Math.ceil(totalCountCategoryView / limit);
     }
-    return Math.ceil(totalCountFactoryView / limit);
-  }, [totalCountCategoryView, totalCountFactoryView, limit]);
+    return Math.ceil(totalCountFactorView / limit);
+  }, [totalCountCategoryView, totalCountFactorView, limit]);
 
   const showingResultsPagination = (totalCount, page, rowsPerPage) => {
     let recordFrom = 0;
@@ -294,6 +294,11 @@ const CompanyRankingView = () => {
   React.useEffect(() => {
     dispatch(getSectorsRequested());
   }, []);
+
+  const totalCount =
+    selectedTab === `${SettingsTabValue.OverallScore}`
+      ? totalCountCategoryView
+      : totalCountFactorView;
 
   return (
     <RankPerformanceContainer
@@ -577,13 +582,20 @@ const CompanyRankingView = () => {
               </TableHead>
               {selectedTab === `${SettingsTabValue.OverallScore}` ? (
                 <TableBody>
-                  {rankingListCategoryView.map((rowItem) => (
+                  {rankingListCategoryView.map((rowItem, rowIndex) => (
                     <CompanyRow
                       // Todo: group props below into more concise props. Eg: companyInfo...
                       key={rowItem.company_id}
                       company_id={rowItem.company_id}
                       shouldShowRankColumn={!!selectedSectorId}
-                      rankingOrderInSector={rowItem.ranking_order_in_sector}
+                      // Save old rankingOrderInSector (from backend) as a reference
+                      // rankingOrderInSector={rowItem.ranking_order_in_sector}
+                      // Calculate ranking number desc | asc
+                      rankingOrderInSector={`${
+                        direction === SortOrder.desc
+                          ? (+currentPage - 1) * limit + (rowIndex + 1)
+                          : totalCount - (+currentPage - 1) * limit - rowIndex
+                      }`}
                       company_name={rowItem.company_name}
                       sector_name={rowItem.sector_name}
                       company_score_overall_score={
@@ -600,7 +612,7 @@ const CompanyRankingView = () => {
                 </TableBody>
               ) : (
                 <TableBody>
-                  {rankingListFactoryView.map((item) => (
+                  {rankingListFactoryView.map((item, rowIndex) => (
                     <FactorScore
                       key={item.company_id}
                       company_id={item.company_id}
@@ -608,10 +620,17 @@ const CompanyRankingView = () => {
                       sector_name={item.sector_name}
                       factors={item.factors}
                       shouldShowRankColumn={!!selectedSectorId}
+                      // Save old rankingOrderInSector (from backend) as a reference
+                      // rankingOrderInSector={ selectedSectorId ? item.ranking_order_in_sector : undefined }
+                      // Calculate ranking number desc | asc
                       rankingOrderInSector={
-                        selectedSectorId
-                          ? item.ranking_order_in_sector
-                          : undefined
+                        /* If no selected factor column, then ranking is calculated by the category score (all factors)
+                         which is rowIndex by default */
+                        selectedColumnIndex
+                          ? direction === SortOrder.desc
+                            ? (+currentPage - 1) * limit + (rowIndex + 1)
+                            : totalCount - (+currentPage - 1) * limit - rowIndex
+                          : rowIndex + 1
                       }
                       selectedColumnIndex={selectedColumnIndex}
                     />
@@ -645,7 +664,7 @@ const CompanyRankingView = () => {
                       limit
                     )
                   : showingResultsPagination(
-                      totalCountFactoryView,
+                      totalCountFactorView,
                       currentPage,
                       limit
                     )}

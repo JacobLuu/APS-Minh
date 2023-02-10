@@ -1,0 +1,104 @@
+{
+  "company": {
+    "id": 510,
+    "name": "Shell"
+  },
+  "news": [
+    {
+      "id": 216482,
+      "published_at": 1670421705,
+      "source_name": "BP",
+      "stock_pictures": [
+        {
+          "id": 42405,
+          "s3_path": "https://www.bp.com/content/dam/bp/business-sites/en/global/corporate/images-jpg-png/news-and-insights/bp-magazine/re-resilient-hydrocarbons-gta-qu-platform.jpg.img.1175.medium.jpg"
+        }
+      ],
+      "title": "bp’s position in Russia",
+      "url": "https://www.bp.com/en/global/corporate/news-and-insights/press-releases/bps-position-in-russia.html"
+    },
+    {
+      "id": 213983,
+      "published_at": 1670342375,
+      "source_name": "BP",
+      "stock_pictures": [
+        {
+          "id": 41867,
+          "s3_path": "https://cfvod.kaltura.com/p/895641/sp/89564100/thumbnail/entry_id/1_irtwbpv3/quality/100/width/1440.032"
+        }
+      ],
+      "title": "Sparking change: M&S and bp pulse to bring EV charging to customers",
+      "url": "https://www.bp.com/en/global/corporate/news-and-insights/press-releases/sparking-change-m-and-s-and-bp-pulse-to-bring-ev-charging-to-customers.html"
+    },
+    {
+      "id": 209752,
+      "published_at": 1670153657,
+      "source_name": "bp",
+      "stock_pictures": [
+        {
+          "id": 40766,
+          "s3_path": "https://www.bp.com/content/dam/bp/business-sites/en/global/corporate/images-jpg-png/news-and-insights/press-releases/hina-nagarajan.jpg.img.1536.medium.jpg"
+        }
+      ],
+      "title": "bp announces non-executive director appointment",
+      "url": "https://www.bp.com/en/global/corporate/news-and-insights/press-releases/bp-announces-non-executive-director-appointment1.html"
+    },
+    {
+      "id": 207076,
+      "published_at": 1670026917,
+      "source_name": "Reuters",
+      "stock_pictures": [
+        {
+          "id": 39925,
+          "s3_path": "https://www.reuters.com/resizer/Yf7vdZJmmv3qLPxVLiKr19zPqIw=/480x0/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/ECULWODJYVOXVPJXEFB24UDMUI.jpg"
+        }
+      ],
+      "title": "BP says labour dispute resolved, Rotterdam Refinery will resume normal operations",
+      "url": "https://www.reuters.com/business/energy/bp-says-labour-dispute-resolved-rotterdam-refinery-will-resume-normal-operations-2022-12-07/"
+    },
+    {
+      "id": 207075,
+      "published_at": 1670026916,
+      "source_name": "BP",
+      "stock_pictures": [
+        {
+          "id": 39924,
+          "s3_path": "https://www.bp.com/content/dam/bp/business-sites/en/global/corporate/images-jpg-png/news-and-insights/press-releases/ka-green-hydrogen-mou.jpg.img.750.medium.jpg"
+        }
+      ],
+      "title": "Main Content bp to explore potential for green hydrogen production in Egypt",
+      "url": "https://www.bp.com/en/global/corporate/news-and-insights/press-releases/bp-to-explore-potential-for-green-hydrogen-production-in-egypt.html"
+    },
+    {
+      "id": 207074,
+      "published_at": 1670026916,
+      "source_name": "Reuters",
+      "stock_pictures": [
+        {
+          "id": 39923,
+          "s3_path": "https://cloudfront-us-east-2.images.arcpublishing.com/reuters/TTAVW7IJZRPQJOAEZV75AGKU3Q.jpg"
+        }
+      ],
+      "title": "BP doubles down on hydrogen as fuel of the future",
+      "url": "https://www.reuters.com/business/energy/bp-doubles-down-hydrogen-fuel-future-2022-12-05/"
+    },
+    {
+      "id": 207073,
+      "published_at": 1670026915,
+      "source_name": "CNBC",
+      "stock_pictures": [
+        {
+          "id": 39922,
+          "s3_path": "https://image.cnbcfm.com/api/v1/image/107165170-1670989119824-PRO_TALKS_JOUMANNA_JEREMY_GLEESON_logo.jpg?v=1670989152"
+        }
+      ],
+      "title": "Oil giant BP is a buy as fundamentals remain strong, Citi says in upgrade",
+      "url": "https://www.cnbc.com/2022/11/22/oil-giant-bp-is-a-buy-as-fundamentals-remain-strong-citi-says-in-upgrade.html"
+    }
+  ],
+  "pagination": {
+    "limit": 16,
+    "offset": 0,
+    "total_count": 7
+  }
+}

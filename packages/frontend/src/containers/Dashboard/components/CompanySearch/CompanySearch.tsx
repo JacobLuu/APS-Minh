@@ -47,6 +47,14 @@ const CompanySearch = (props: CompanySearchProps) => {
 
   const filterOptions = createFilterOptions({
     trim: true,
+    // prepare searchable text for MUI search function
+    stringify: (option: CompanyBase) => {
+      if (option) {
+        return `${option.ticker} ${option.name} ${
+          option.pinyin_shortcut || ""
+        }`;
+      }
+    },
   });
 
   return (

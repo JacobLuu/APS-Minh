@@ -1,0 +1,104 @@
+{
+  "company": {
+    "id": 509,
+    "name": "Shell"
+  },
+  "news": [
+    {
+      "id": 216482,
+      "published_at": 1670421705,
+      "source_name": "Edition",
+      "stock_pictures": [
+        {
+          "id": 42405,
+          "s3_path": "https://media.cnn.com/api/v1/images/stellar/prod/221130105526-embargoed-pepsi-lindsay-lohan-holiday-campaign.jpg?c=16x9&q=h_270,w_480,c_fill"
+        }
+      ],
+      "title": "Pepsi wants you to drink soda mixed with milk this holiday season",
+      "url": "https://edition.cnn.com/2022/12/01/business/dirty-soda-pepsi/index.html"
+    },
+    {
+      "id": 213983,
+      "published_at": 1670342375,
+      "source_name": "CNBC",
+      "stock_pictures": [
+        {
+          "id": 41867,
+          "s3_path": "https://image.cnbcfm.com/api/v1/image/106610872-1594388564824gettyimages-1161036918.jpeg?v=1670279062&w=929&h=523&vtcrop=y"
+        }
+      ],
+      "title": "PepsiCo plans to cut hundreds of corporate jobs, report says",
+      "url": "https://www.cnbc.com/2022/12/05/pepsico-plans-to-cut-hundreds-of-jobs.html"
+    },
+    {
+      "id": 209752,
+      "published_at": 1670153657,
+      "source_name": "Guardian",
+      "stock_pictures": [
+        {
+          "id": 40766,
+          "s3_path": "https://i.guim.co.uk/img/media/7c2705b3e3551492c0afd80ce83938051d68919a/206_0_3600_2160/master/3600.jpg?width=465&quality=85&dpr=1&s=none"
+        }
+      ],
+      "title": "Pepsi, Where’s My Jet? review – the oddly dull tale of a man who sued a soft drink for a weaponised plane",
+      "url": "https://www.theguardian.com/tv-and-radio/2022/nov/18/pepsi-wheres-my-jet-review-the-oddly-dull-tale-of-a-man-who-sued-a-soft-drink-for-a-weaponised-plane"
+    },
+    {
+      "id": 207076,
+      "published_at": 1670026917,
+      "source_name": "Forbes",
+      "stock_pictures": [
+        {
+          "id": 39925,
+          "s3_path": "https://imageio.forbes.com/specials-images/imageserve/6389a1023aae5e095220296e/Truck-Delivery-In-U-S-/960x0.jpg?format=jpg&width=960"
+        }
+      ],
+      "title": "Is There A Better Pick Over PepsiCo Stock?",
+      "url": "https://www.forbes.com/sites/greatspeculations/2022/12/02/is-there-a-better-pick-over-pepsico-stock/?sh=ea4af3a5815d"
+    },
+    {
+      "id": 207075,
+      "published_at": 1670026916,
+      "source_name": "Forbes",
+      "stock_pictures": [
+        {
+          "id": 39924,
+          "s3_path": "https://imageio.forbes.com/specials-images/imageserve/63769b93e44bd03d052d6c11/JIMandrew/960x0.png?format=png&width=960"
+        }
+      ],
+      "title": "PepsiCo’s Massive, Complex, And Difficult Greenhouse Gas Initiative",
+      "url": "https://www.forbes.com/sites/stevebanker/2022/11/17/pepsicos-massive-complex-and-difficult-greenhouse-gas-initiative/?sh=1945ae401d72"
+    },
+    {
+      "id": 207074,
+      "published_at": 1670026916,
+      "source_name": "Forbes",
+      "stock_pictures": [
+        {
+          "id": 39923,
+          "s3_path": "https://imageio.forbes.com/specials-images/imageserve/63978b0f74f7c59b493ef9b2/Fraud-Charge-Against-Goldman-Sachs-Takes-Toll-On-Market-Indices/0x0.jpg?format=jpg&crop=3000,1687,x0,y139,safe&width=960"
+        }
+      ],
+      "title": "2022 Major Layoffs Grow: Goldman Sachs, Pluralsight Cutting Hundreds Of Jobs",
+      "url": "https://www.forbes.com/sites/brianbushard/2022/12/13/2022-major-layoffs-grow-twitter-goldman-sachs-pluralsight-cutting-hundreds-of-jobs/"
+    },
+    {
+      "id": 207073,
+      "published_at": 1670026915,
+      "source_name": "CNBC",
+      "stock_pictures": [
+        {
+          "id": 39922,
+          "s3_path": "https://image.cnbcfm.com/api/v1/image/104648228-GettyImages-138490197.jpg?v=1665569448&w=929&h=523&vtcrop=y"
+        }
+      ],
+      "title": "PepsiCo hikes forecast after higher pricing helps boost revenue",
+      "url": "https://www.cnbc.com/2022/10/12/pepsico-pep-reports-q3-earnings.html"
+    }
+  ],
+  "pagination": {
+    "limit": 16,
+    "offset": 0,
+    "total_count": 7
+  }
+}

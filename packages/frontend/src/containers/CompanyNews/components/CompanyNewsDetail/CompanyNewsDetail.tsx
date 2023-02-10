@@ -12,13 +12,19 @@ import HowItWorkModal from "../../../../components/HowItWorkModal";
 import Text from "../../../../components/Text";
 import { DASHBOARD_PATH } from "../../../../constants/paths";
 import { IS_PLUGIN_NOTIFICATION_SHOWN } from "../../../../constants/sessionStorage";
-import { getNewsRequested, selectNews } from "../../../../reducers/news";
+import {
+  getNewsRequested,
+  getMockNewsRequested,
+  selectNews,
+} from "../../../../reducers/news";
 import { useAppDispatch, useAppSelector } from "../../../../store/hooks";
 import { DEEP_BLUE } from "../../../../themes/colors";
 import { News } from "../../../../types";
 import { useExtensionInstalled } from "../../../../utils/extension";
 import CompanyMoreNews from "../CompanyMoreNews";
 import CompanyTopNews from "../CompanyTopNews";
+
+export const listMockedCompanyId = [509, 510, 511, 512];
 
 const CompanyNewsDetail = () => {
   const [showLoading, setShowLoading] = useState<boolean>(false);
@@ -67,14 +73,17 @@ const CompanyNewsDetail = () => {
       const REGEX_COMPANY_ID = /(?<=.*?company\/)\d+/g;
       targetSearchCompanyId = REGEX_COMPANY_ID.exec(pathname)?.[0];
     }
-
-    dispatch(
-      getNewsRequested({
-        companyId: Number(targetSearchCompanyId),
-        offset: 0,
-        limit: 16,
-      })
-    );
+    if (listMockedCompanyId.includes(+targetSearchCompanyId)) {
+      dispatch(getMockNewsRequested(+targetSearchCompanyId));
+    } else {
+      dispatch(
+        getNewsRequested({
+          companyId: Number(targetSearchCompanyId),
+          offset: 0,
+          limit: 16,
+        })
+      );
+    }
     setInitialize(true);
   }, []);
 
@@ -105,13 +114,17 @@ const CompanyNewsDetail = () => {
     if (showLoading) {
       const sendRequest = async () => {
         await new Promise<void>((resolve) => setTimeout(() => resolve(), 500));
-        dispatch(
-          getNewsRequested({
-            companyId: Number(companyId),
-            offset: newsContents.length,
-            limit: 6,
-          })
-        );
+        if (listMockedCompanyId.includes(+companyId)) {
+          dispatch(getMockNewsRequested(+companyId));
+        } else {
+          dispatch(
+            getNewsRequested({
+              companyId: Number(companyId),
+              offset: newsContents.length,
+              limit: 6,
+            })
+          );
+        }
       };
       sendRequest();
     }

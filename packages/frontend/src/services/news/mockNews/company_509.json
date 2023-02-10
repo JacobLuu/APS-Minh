@@ -1,0 +1,104 @@
+{
+  "company": {
+    "id": 509,
+    "name": "Shell"
+  },
+  "news": [
+    {
+      "id": 216482,
+      "published_at": 1670421705,
+      "source_name": "Shell",
+      "stock_pictures": [
+        {
+          "id": 42405,
+          "s3_path": "https://www.shell.com/content/experience-fragments/shell/corporate/media/master/_jcr_content/root/simple/promo_copy_copy_copy.coreimg.jpeg/1663241275960/two-lady-in-office-area.jpeg?imwidth=384&impolicy=amidala-image&format=jpg&width=1200"
+        }
+      ],
+      "title": "Shell to acquire renewable natural gas producer Nature Energy",
+      "url": "https://www.shell.com/media/news-and-media-releases/2022/shell-to-acquire-renewable-natural-gas-producer-nature-energy.html"
+    },
+    {
+      "id": 213983,
+      "published_at": 1670342375,
+      "source_name": "Guardian",
+      "stock_pictures": [
+        {
+          "id": 41867,
+          "s3_path": "https://guardian.ng/wp-content/uploads/2022/12/image001-1.jpg"
+        }
+      ],
+      "title": "Shell Nigeria distributes $1m relief materials to flood-impacted states",
+      "url": "https://guardian.ng/news/shell-nigeria-distributes-1m-relief-materials-to-flood-impacted-states/"
+    },
+    {
+      "id": 209752,
+      "published_at": 1670153657,
+      "source_name": "Reuters",
+      "stock_pictures": [
+        {
+          "id": 40766,
+          "s3_path": "https://www.reuters.com/resizer/bIxhcjNFXiKI8z2LBgsg72qllRc=/960x0/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/XRPWAWTFJFMW3PM3NASRMHQOUM.jpg"
+        }
+      ],
+      "title": "Australian PM shrugs off gas industry price cap concerns",
+      "url": "https://www.reuters.com/business/energy/australian-pm-meet-gas-producers-over-price-cap-concerns-2022-12-11/"
+    },
+    {
+      "id": 207076,
+      "published_at": 1670026917,
+      "source_name": "Standard",
+      "stock_pictures": [
+        {
+          "id": 39925,
+          "s3_path": ""
+        }
+      ],
+      "title": "‘We will not stand by’: Shell exits Russia projects worth $3bn as Ukraine backlash grows",
+      "url": "https://www.standard.co.uk/business/shell-exits-russia-gazprom-as-oil-giant-joins-van-beurden-ukraine-invasion-b985156.html"
+    },
+    {
+      "id": 207075,
+      "published_at": 1670026916,
+      "source_name": "Reuters",
+      "stock_pictures": [
+        {
+          "id": 39924,
+          "s3_path": "https://www.reuters.com/resizer/ZDG5aETXtygyWv8yEgSaP-HZSqM=/480x0/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/VWFODMVYOBII7DKHZY4EC5EBLE.jpg"
+        }
+      ],
+      "title": "Britain rebuffs calls from oil and gas bosses to amend windfall tax",
+      "url": "https://www.reuters.com/markets/europe/uk-finance-minister-hunt-discusses-windfall-tax-with-oil-execs-2022-12-09/"
+    },
+    {
+      "id": 207074,
+      "published_at": 1670026916,
+      "source_name": "europeanbusinessmagazine",
+      "stock_pictures": [
+        {
+          "id": 39923,
+          "s3_path": "https://europeanbusinessmagazine.com/wp-content/uploads/2022/06/D2R-KeyArt.jpg?format=jpg&width=1200"
+        }
+      ],
+      "title": "Warner Bros. Discovery partners with Shell in ‘Dare to Ride’",
+      "url": "https://europeanbusinessmagazine.com/media-outreach/warner-bros-discovery-partners-with-shell-in-dare-to-ride/"
+    },
+    {
+      "id": 207073,
+      "published_at": 1670026915,
+      "source_name": "Reuters",
+      "stock_pictures": [
+        {
+          "id": 39922,
+          "s3_path": "https://www.reuters.com/resizer/6Dv5CxhE-nZk1KAOA4MEIEd3iCk=/480x0/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/B7NJBLVAZBKLFGLHJPLSIBKGYQ.jpg"
+        }
+      ],
+      "title": "Shell, Exxon face delays in exiting California oilfield",
+      "url": "https://www.reuters.com/business/energy/shell-exxon-face-delays-exiting-california-oilfield-2022-12-08/"
+    }
+  ],
+  "pagination": {
+    "limit": 16,
+    "offset": 0,
+    "total_count": 7
+  }
+}

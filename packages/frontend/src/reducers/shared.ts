@@ -1,7 +1,6 @@
 import { createSlice } from "@reduxjs/toolkit";
 
 import { RootState } from "../store/store";
-import { handleUnauthorizedError } from "../utils/errorHandler";
 import { isUnauthorized } from "../utils/status";
 
 // This is the shared reducer which handles common states for all slices like loading state or error message
@@ -11,8 +10,13 @@ const sharedSlice = createSlice({
   name: "shared",
   initialState: {
     loading: false,
+    isTokenExpired: false,
   },
-  reducers: {},
+  reducers: {
+    resetTokenExpiredToFalse: (state) => {
+      state.isTokenExpired = false;
+    },
+  },
   extraReducers: (builder) => {
     builder.addMatcher(
       (action) => action.type.endsWith("Requested"),
@@ -31,7 +35,7 @@ const sharedSlice = createSlice({
       (state, action) => {
         const { payload } = action;
         if (isUnauthorized(String(payload.status))) {
-          handleUnauthorizedError();
+          state.isTokenExpired = true;
         }
         state.loading = false;
       }
@@ -39,7 +43,9 @@ const sharedSlice = createSlice({
   },
 });
 
-const { reducer } = sharedSlice;
+const { actions, reducer } = sharedSlice;
+
+export const { resetTokenExpiredToFalse } = actions;
 
 export const selectSharedState = (state: RootState) => state.shared;
 

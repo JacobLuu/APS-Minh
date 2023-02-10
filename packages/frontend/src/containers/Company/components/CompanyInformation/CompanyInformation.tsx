@@ -7,7 +7,10 @@ import ArrowUpwardIcon from "@material-ui/icons/ArrowUpward";
 
 import Text from "../../../../components/Text";
 import { selectCompany } from "../../../../reducers/company";
-import { getNewsRequested } from "../../../../reducers/news";
+import {
+  getNewsRequested,
+  getMockNewsRequested,
+} from "../../../../reducers/news";
 import { useAppDispatch, useAppSelector } from "../../../../store/hooks";
 import {
   COLOR_PRIMARY,
@@ -17,6 +20,7 @@ import {
 } from "../../../../themes/colors";
 import { CompanyDetailsState } from "../../../../types";
 import { EXCHANGE_CURRENCY } from "../../../../constants/enums";
+import { listMockedCompanyId } from "../../../CompanyNews/components/CompanyNewsDetail/CompanyNewsDetail";
 
 const CompanyInformation = () => {
   const {
@@ -31,13 +35,17 @@ const CompanyInformation = () => {
   const dispatch = useAppDispatch();
   const params = useParams<{ companyId: string }>();
   useEffect(() => {
-    dispatch(
-      getNewsRequested({
-        companyId: Number(params.companyId),
-        offset: 0,
-        limit: 4,
-      })
-    );
+    if (listMockedCompanyId.includes(+params.companyId)) {
+      dispatch(getMockNewsRequested(+params.companyId));
+    } else {
+      dispatch(
+        getNewsRequested({
+          companyId: Number(params.companyId),
+          offset: 0,
+          limit: 4,
+        })
+      );
+    }
   }, [params.companyId]);
 
   const colorOfIndicator = stockPriceDiff < 0 ? STATE_OFF : STATE_ON;
@@ -47,6 +55,7 @@ const CompanyInformation = () => {
       style={{
         backgroundColor: `${WHITE}`,
         borderRadius: 8,
+        textTransform: "capitalize",
       }}
       height="100%"
       px={3}
