@@ -1,0 +1,49 @@
+{
+  "framework_view_mode": {
+    "ESG_framework": "ESG框架设置",
+    "if_you_have": "如果你有自己的ESG框架，请随时使用我们的模板上传框架，我们会相应地更新系统。",
+    "download_template" : "下载模板",
+    "upload": "上传",
+    "environmental": "环境",
+    "social" : "社会",
+    "governance": "治理",
+    "what_to_measure": "测量什么",
+    "description": "描述",
+    "qualitative": "定性的",
+    "quantitative": "数量"
+  },
+  "upload_popup": {
+    "upload": "上传",
+    "file": "文件",
+    "drag_drop": "拖放文件到这里，或点击选择文件",
+    "ok": "好的",
+    "cancel": "取消"
+  },
+  "framwork_preview_mode": {
+    "framework_imported": "框架成功导入",
+    "save": "拯救",
+    "cancel": "取消"
+  },
+  "upload_invalid_format": {
+    "there_is_an_issue": "导入框架时有一个问题。请再次检查格式。"
+  },
+  "popup_message_to_confirm": {
+    "clicking_ok": "点击'确定'将用你自己的框架取代系统的默认ESG框架。 所有先前保存的分数、权重、定性答案和手动输入的披露将被清除\n您想继续吗？",
+    "ok": "认可",
+    "cancel": "取消"
+  },
+  "replacing_process": {
+    "framework_successfully_applied": "框架成功应用。"
+  },
+  "language": {
+    "framework": "框架",
+    "language": "语言",
+    "select_your_default_language": "选择你的默认语言:",
+    "save": "保存"
+  },
+  "upload_framework_processing": {
+    "just_few_minutes": "请等几个分钟 !",
+    "upload_framework_description": "我们正在更新您的框架。请在几个分钟内回来。",
+    "log_out": "登出"
+  }
+}

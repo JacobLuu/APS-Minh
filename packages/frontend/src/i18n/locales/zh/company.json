@@ -1,0 +1,247 @@
+{
+  "overall_score": {
+    "overall_score": "整体分数",
+    "environmental": "环境",
+    "social": "社会",
+    "governance": "治理",
+    "edit_history": "编辑历史"
+  },
+  "edit_weightage": {
+    "overall_score": "整体分数",
+    "dimension": "尺寸",
+    "score_or_grade": "分数（等级)",
+    "weightage": "权重",
+    "environmental": "环境",
+    "social": "社会",
+    "governance": "治理",
+    "reasons_for_change": "改变的原因:",
+    "cancel": "取消",
+    "save": "保存",
+    "error_message": {
+      "required_field": "此栏为必填项"
+    }
+  },
+  "edit_history": {
+    "edit_history": "编辑历史",
+    "reasons_for_change": "改变的原因:",
+    "last_updated_on": "最后更新于",
+    "changed": "将",
+    "from": "从",
+    "to": "改为",
+    "of": "的",
+    "created": "创建",
+    "for": "为",
+    "null": "无",
+    "score": "分数",
+    "weightage": "权重",
+    "new_answer_text": "一个新的答案文本:",
+    "new_disclosure": "一份新的披露:",
+    "a_source": "一个来源",
+    "a_score": "一个分数"
+  },
+  "latest_news": {
+    "latest_news": "热门新闻",
+    "view_all": "查看全部"
+  },
+  "category_tab": {
+    "environmental": "环境",
+    "social": "社会",
+    "governance": "治理",
+    "score": "分数:",
+    "disclosure_found": "发现信息披露:",
+    "add_disclosure": "增加披露",
+    "edit_history": "编辑历史",
+    "factor": "因素",
+    "score_header": "分数",
+    "weightage": "权重",
+    "last_updated": "最后更新",
+    "weightage_tool_tip": "这是由您的公司的ESG设置定义的.",
+    "no_disclosure_found": "未发现任何答案"
+  },
+  "qualitative_quantitative": {
+    "qualitative": "定性的",
+    "quantitative": "定量的"
+  },
+  "factor_detail_page": {
+    "factor_score": "指标分值",
+    "qualitative": "定性的",
+    "quantitative": "定量的",
+    "weightage": "(权重)",
+    "edit_history": "编辑历史"
+  },
+  "edit_q&q_weightage": {
+    "overall_score": "总分",
+    "score": "得分",
+    "weightage": "权重",
+    "qualitative": "定性的",
+    "quantitative": "定量的"
+  },
+  "qualitative_view_mode": {
+    "qualitative": "定性的",
+    "edit_all": "编辑所有",
+    "edit_history": "编辑历史",
+    "metric_score": "衡量标准得分",
+    "weightage_uppercase": "权重",
+    "answer": "解答",
+    "disclosure": "披露",
+    "score": "分数",
+    "weightage_lowercase": "权重",
+    "source": "来源",
+    "add_answer": "添加答案"
+  },
+  "qualitative_edit_mode": {
+    "qualitative": "定性的",
+    "metric_score": "衡量标准得分",
+    "weightage_uppercase": "权重",
+    "answer": "解答",
+    "reason_for_change": "改变的原因",
+    "reason": "原因*",
+    "disclosure": "披露",
+    "score": "分数",
+    "weightage_lowercase": "权重",
+    "source": "来源",
+    "source_name": "来源名称",
+    "cancel": "取消",
+    "save": "保存",
+    "edit": "編集",
+    "others": "其他",
+    "error_message": {
+      "required_field": "此栏为必填项"
+    }
+  },
+  "add_answer_popup": {
+    "add_answer": "添加答案",
+    "score": "分数",
+    "source": "来源",
+    "reason_for_change": "变化的原因.",
+    "cancel": "取消",
+    "save": "保存",
+    "required_field": "此栏为必填项"
+  },
+  "qualitative_edit_history": {
+    "edit_history": "编辑历史",
+    "reasons_for_change": "变化的原因",
+    "last_updated_on": "最后更新于",
+    "changed": "将",
+    "weightage_from": "的权重从",
+    "changed_from": "从",
+    "answer_from": "答案从",
+    "created_new_disclosure": "创建了一个新的披露",
+    "created_score": "创建了一个分数",
+    "created_source": "创建了一个来源",
+    "for": "为",
+    "change_disclosure": "改变了披露",
+    "score_from": "得分从",
+    "source_from": "的来源从",
+    "to": "改为"
+  },
+  "quantitative_view_mode": {
+    "metrics": "指标",
+    "edit_all": "编辑所有",
+    "edit_history": "编辑历史",
+    "metric_score": "指标得分",
+    "weightage_uppercase": "权重",
+    "disclosure": "披露",
+    "score": "分数",
+    "weightage_lowercase": "权重",
+    "source": "来源",
+    "add_answer": "添加答案"
+  },
+  "quantitative_edit_mode": {
+    "metrics": "指标",
+    "metric_score": "衡量标准得分",
+    "weightage_uppercase": "重量",
+    "disclosure": "披露",
+    "score": "分数",
+    "weightage_lowercase": "重量",
+    "source": "来源",
+    "reason_for_change": "改变的原因",
+    "cancel": "取消",
+    "save": "拯救",
+    "error_message":{
+      "required_field": "此栏为必填项"
+    }
+  },
+  "quantitative_edit_history": {
+    "edit_history": "编辑历史",
+    "reasons_for_change": "变化的原因",
+    "last_updated_on": "最后更新于",
+    "changed": "将",
+    "weightage_from": "的权重从",
+    "changed_from": "从",
+    "answer_from": "答案从",
+    "created_new_disclosure": "创建了一个新的披露",
+    "created_score": "创建了一个分数",
+    "created_source": "创建了一个来源",
+    "score": "分数",
+    "weightage": "权重",
+    "source": "来源",
+    "from": "从",
+    "for": "为",
+    "score_from": "得分从",
+    "source_from": "的来源从",
+    "to": "到"
+  },
+  "source_view_mode": {
+    "input": "输入",
+    "output": "输出",
+    "current_view": "当前查看",
+    "result": "结果",
+    "jump_to_page": "跳转到页面:",
+    "score": "分数",
+    "edit_all": "编辑所有",
+    "edit_history": "编辑历史",
+    "disclosure": "披露"
+  },
+  "source_edit_mode": {
+    "score":"分数",
+    "cancel":"取消",
+    "save":"保存",
+    "disclosure":"披露",
+    "unit":"单位",
+    "reason_for_change":"改变的原因",
+    "range_of_score":"分数必须在0-10之间",
+    "required_field":"此栏为必填项"
+  },
+  "source_edit_history": {
+    "edit_history": "编辑历史",
+    "reasons_for_change": "变化的原因",
+    "last_updated_on": "最后更新于",
+    "changed_score_metric": "将公制",
+    "changed_disclosure": "的披露从",
+    "changed_unit": "的单位从",
+    "change_from": "从",
+    "change_to": "改为"
+  },
+  "add_disclosure_popup": {
+    "add_disclosure": "增加披露",
+    "select_factor": "选择因子*",
+    "select_metric": "选择公制*",
+    "select_q_or_q": "选择定性/定量*",
+    "select_document": "选择文件*",
+    "select_year": "年*",
+    "source": "来源",
+    "source_name": "来源名称*",
+    "score": "分数",
+    "range_of_score": "分数必须在0-10之间",
+    "disclosure": "披露",
+    "required_field": "此栏为必填项",
+    "reason_for_change": "变化的原因:",
+    "cancel": "取消",
+    "save": "保存",
+    "others": "其他",
+    "error_message": {
+      "factor": "因素必须在1000个字符以下.",
+      "source_name": "源名称必须在1-200个字符之间.",
+      "answer": "答案必须在 1-500 个字符之间.",
+      "reason_for_change": "更改的原因必须在1-500个字符之间.",
+      "analyst_answer": "分析师答案必须介于 1-500 个字符之间。",
+      "year": "年份是必须的，而且必须要从1900年到当前年份。"
+    }
+  },
+  "pdf_viewer": {
+    "page": "页",
+    "conflict_error_message": "有人已经更新数据。请重新加载这个屏幕.",
+    "something_wrong_error_message": "对不起，出了问题。请重新加载这个页面."
+  }
+}

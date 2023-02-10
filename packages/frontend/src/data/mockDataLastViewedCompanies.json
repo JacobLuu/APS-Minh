@@ -1,0 +1,815 @@
+
+  {
+    "direction": "asc",
+    "limit": 10,
+    "list": [
+      {
+        "company": {
+          "categories": [],
+          "company_score": {
+            "id": 10249,
+            "overall_score": "6.9",
+            "pre_score": "9.3",
+            "number_of_change": "6",
+            "is_arrow_up": true,
+            "rank_score": "",
+            "updated_at": 1647334517
+          },
+          "created_at": 1627014251,
+          "id": 2,
+          "industry": {
+            "id": 50,
+            "name": "Metal Fabrication",
+            "sector": {
+              "id": 8,
+              "name": "Industrials"
+            }
+          },
+          "quantitative":{
+            "questions": [
+              {
+                "id": 1,
+                "name": "Does your company have a strategy and implementation plan to address material physical and transition climate change risks and opportunities?(2)",
+                "answers": [
+                  {
+                    "id": 1,
+                    "name": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Iaculis tellus in pellentesque orci nunc lectus purus auctor. Sed rhoncus, dis vestibulum, in ac at laoreet."
+                  },
+                  {
+                    "id": 2,
+                    "name": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Iaculis tellus in pellentesque orci nunc lectus purus auctor. Sed rhoncus, dis vestibulum, in ac at laoreet."
+                  },
+                  {
+                    "id": 3,
+                    "name": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Iaculis tellus in pellentesque orci nunc lectus purus auctor. Sed rhoncus, dis vestibulum, in ac at laoreet."
+                  }
+                ]
+              },
+              {
+                "id": 2,
+                "name": "Does your company have a strategy and implementation plan to address material physical and transition climate change risks and opportunities?(2)",
+                "answers": [
+                  {
+                    "id": 1,
+                    "name": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Iaculis tellus in pellentesque orci nunc lectus purus auctor. Sed rhoncus, dis vestibulum, in ac at laoreet."
+                  },
+                  {
+                    "id": 2,
+                    "name": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Iaculis tellus in pellentesque orci nunc lectus purus auctor. Sed rhoncus, dis vestibulum, in ac at laoreet."
+                  },
+                  {
+                    "id": 3,
+                    "name": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Iaculis tellus in pellentesque orci nunc lectus purus auctor. Sed rhoncus, dis vestibulum, in ac at laoreet."
+                  }
+                ]
+              },
+              {
+                "id": 3,
+                "name": "What measures is your company taking/considering to reduce its CO2-emission (and over what time horizon)? (0)",
+                "answers": [
+                  {
+                    "id": 1,
+                    "name": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Iaculis tellus in pellentesque orci nunc lectus purus auctor. Sed rhoncus, dis vestibulum, in ac at laoreet."
+                  },
+                  {
+                    "id": 2,
+                    "name": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Iaculis tellus in pellentesque orci nunc lectus purus auctor. Sed rhoncus, dis vestibulum, in ac at laoreet."
+                  },
+                  {
+                    "id": 3,
+                    "name": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Iaculis tellus in pellentesque orci nunc lectus purus auctor. Sed rhoncus, dis vestibulum, in ac at laoreet."
+                  }
+                ]
+              }
+            ]
+          },
+          "qualitative":{
+            "questions": [
+              {
+                "id": 1,
+                "name": "Does your company have a strategy and implementation plan to address material physical and transition climate change risks and opportunities?(2)",
+                "answers": [
+                  {
+                    "id": 1,
+                    "name": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Iaculis tellus in pellentesque orci nunc lectus purus auctor. Sed rhoncus, dis vestibulum, in ac at laoreet."
+                  },
+                  {
+                    "id": 2,
+                    "name": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Iaculis tellus in pellentesque orci nunc lectus purus auctor. Sed rhoncus, dis vestibulum, in ac at laoreet."
+                  },
+                  {
+                    "id": 3,
+                    "name": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Iaculis tellus in pellentesque orci nunc lectus purus auctor. Sed rhoncus, dis vestibulum, in ac at laoreet."
+                  }
+                ]
+              },
+              {
+                "id": 2,
+                "name": "Does your company have a strategy and implementation plan to address material physical and transition climate change risks and opportunities?(2)",
+                "answers": [
+                  {
+                    "id": 1,
+                    "name": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Iaculis tellus in pellentesque orci nunc lectus purus auctor. Sed rhoncus, dis vestibulum, in ac at laoreet."
+                  },
+                  {
+                    "id": 2,
+                    "name": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Iaculis tellus in pellentesque orci nunc lectus purus auctor. Sed rhoncus, dis vestibulum, in ac at laoreet."
+                  },
+                  {
+                    "id": 3,
+                    "name": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Iaculis tellus in pellentesque orci nunc lectus purus auctor. Sed rhoncus, dis vestibulum, in ac at laoreet."
+                  }
+                ]
+              }
+            ]
+          },
+
+          "name": "CHINA LIFE INSURANCE CO LTD",
+          "name_cn": "可成科技",
+          "ticker": "2474:TT",
+          "updated_at": 1627014251
+        },
+        "created_at": 1647337385,
+        "id": 209,
+        "last_edit_history": {
+          "after_value": "3",
+          "before_value": "6",
+          "change_reason": "okkk",
+          "changed_item": "a Score",
+          "change_category": "environmental",
+          "created_at": 1644348141,
+          "data_type": "created_extracted_result_property",
+          "id": 14075,
+          "label": "ok",
+          "update_by": {
+            "created_at": 1647165341,
+            "email_address": "other02_org1@nexusfrontier.tech",
+            "first_name": "Other",
+            "id": "01FY6CMAE9Y6FPH7N0213TMRMX",
+            "language": "en",
+            "last_name": "User02_org1",
+            "organization": {
+              "created_at": 1647334517,
+              "framework": "GRI",
+              "id": "01FY6CKTT7P547M2BB70P385EJ",
+              "name": "org1",
+              "updated_at": 1647334517
+            },
+            "role": "member",
+            "updated_at": 1647338141
+          }
+        },
+        "last_viewed_at": 1647338141
+      },
+      {
+        "company": {
+          "categories": [],
+          "company_score": {
+            "id": 10249,
+            "overall_score": "3.1",
+            "pre_score": "1.4",
+            "number_of_change": "4",
+            "is_arrow_up": true,
+            "rank_score": "",
+            "updated_at": 1647334517
+          },
+          "created_at": 1627014251,
+          "id": 4,
+          "industry": {
+            "id": 50,
+            "name": "Metal Fabrication",
+            "sector": {
+              "id": 8,
+              "name": "Industrials"
+            }
+          },
+          "name": "CHINA MOBILE LTD",
+          "name_cn": "可成科技",
+          "ticker": "2474:TT",
+          "updated_at": 1627014251
+        },
+        "created_at": 1647337385,
+        "id": 209,
+        "last_edit_history": {
+          "after_value": "3",
+          "before_value": "6",
+          "change_reason": "okkk",
+          "changed_item": "a Score",
+          "change_category": "environmental",
+          "created_at": 1647338141,
+          "data_type": "created_extracted_result_property",
+          "id": 14075,
+          "label": "ok",
+          "update_by": {
+            "created_at": 1647165341,
+            "email_address": "other02_org1@nexusfrontier.tech",
+            "first_name": "Other",
+            "id": "01FY6CMAE9Y6FPH7N0213TMRMX",
+            "language": "en",
+            "last_name": "User02_org1",
+            "organization": {
+              "created_at": 1647334517,
+              "framework": "GRI",
+              "id": "01FY6CKTT7P547M2BB70P385EJ",
+              "name": "org1",
+              "updated_at": 1647334517
+            },
+            "role": "member",
+            "updated_at": 1647338141
+          }
+        },
+        "last_viewed_at": 1647338141
+      },
+      {
+        "company": {
+          "categories": [],
+          "company_score": {
+            "id": 10249,
+            "overall_score": "1",
+            "pre_score": "1.8",
+            "number_of_change": "4",
+            "is_arrow_up": false,
+            "rank_score": "",
+            "updated_at": 1647334517
+          },
+          "created_at": 1627014251,
+          "id": 5,
+          "industry": {
+            "id": 50,
+            "name": "Metal Fabrication",
+            "sector": {
+              "id": 8,
+              "name": "Industrials"
+            }
+          },
+          "name": "CHINA RESOURCES MEDICAL HOLDINGS CO LTD",
+          "name_cn": "可成科技",
+          "ticker": "2474:TT",
+          "updated_at": 1627014251
+        },
+        "created_at": 1647337385,
+        "id": 209,
+        "last_edit_history": {
+          "after_value": "3",
+          "before_value": "6",
+          "change_reason": "okkk",
+          "changed_item": "a Score",
+          "change_category": "social",
+          "created_at": 1647338141,
+          "data_type": "created_extracted_result_property",
+          "id": 14075,
+          "label": "ok",
+          "update_by": {
+            "created_at": 1647165341,
+            "email_address": "other02_org1@nexusfrontier.tech",
+            "first_name": "Other",
+            "id": "01FY6CMAE9Y6FPH7N0213TMRMX",
+            "language": "en",
+            "last_name": "User02_org1",
+            "organization": {
+              "created_at": 1647334517,
+              "framework": "GRI",
+              "id": "01FY6CKTT7P547M2BB70P385EJ",
+              "name": "org1",
+              "updated_at": 1647334517
+            },
+            "role": "member",
+            "updated_at": 1647338141
+          }
+        },
+        "last_viewed_at": 1647338141
+      },
+      {
+        "company": {
+          "categories": [],
+          "company_score": {
+            "id": 10249,
+            "overall_score": "7.5",
+            "pre_score": "6.4",
+            "number_of_change": "2",
+            "is_arrow_up": true,
+            "rank_score": "",
+            "updated_at": 1647334517
+          },
+          "created_at": 1627014251,
+          "id": 6,
+          "industry": {
+            "id": 50,
+            "name": "Metal Fabrication",
+            "sector": {
+              "id": 8,
+              "name": "Industrials"
+            }
+          },
+          "name": "CHINA RESOURCES SANJIU MEDICAL & PHARMACEUTICAL CO LTD",
+          "name_cn": "可成科技",
+          "ticker": "2474:TT",
+          "updated_at": 1627014251
+        },
+        "created_at": 1647337385,
+        "id": 209,
+        "last_edit_history": {
+          "after_value": "3",
+          "before_value": "6",
+          "change_reason": "okkk",
+          "changed_item": "a Score",
+          "change_category": "governance",
+          "created_at": 1647338141,
+          "data_type": "created_extracted_result_property",
+          "id": 14075,
+          "label": "ok",
+          "update_by": {
+            "created_at": 1647165341,
+            "email_address": "other02_org1@nexusfrontier.tech",
+            "first_name": "Other",
+            "id": "01FY6CMAE9Y6FPH7N0213TMRMX",
+            "language": "en",
+            "last_name": "User02_org1",
+            "organization": {
+              "created_at": 1647334517,
+              "framework": "GRI",
+              "id": "01FY6CKTT7P547M2BB70P385EJ",
+              "name": "org1",
+              "updated_at": 1647334517
+            },
+            "role": "member",
+            "updated_at": 1647338141
+          }
+        },
+        "last_viewed_at": 1647338141
+      },
+      {
+        "company": {
+          "categories": [],
+          "company_score": {
+            "id": 10249,
+            "overall_score": "1",
+            "pre_score": "8.0",
+            "number_of_change": "4",
+            "is_arrow_up": false,
+            "rank_score": "",
+            "updated_at": 1647334517
+          },
+          "created_at": 1627014251,
+          "id": 7,
+          "industry": {
+            "id": 50,
+            "name": "Metal Fabrication",
+            "sector": {
+              "id": 8,
+              "name": "Industrials"
+            }
+          },
+          "name": "CHINA SUNTIEN GREEN ENERGY CORPORATION LTD",
+          "name_cn": "可成科技",
+          "ticker": "2474:TT",
+          "updated_at": 1627014251
+        },
+        "created_at": 1647337385,
+        "id": 209,
+        "last_edit_history": {
+          "after_value": "3",
+          "before_value": "6",
+          "change_reason": "okkk",
+          "changed_item": "a Score",
+          "change_category": "social",
+          "created_at": 1647338141,
+          "data_type": "created_extracted_result_property",
+          "id": 14075,
+          "label": "ok",
+          "update_by": {
+            "created_at": 1647165341,
+            "email_address": "other02_org1@nexusfrontier.tech",
+            "first_name": "Other",
+            "id": "01FY6CMAE9Y6FPH7N0213TMRMX",
+            "language": "en",
+            "last_name": "User02_org1",
+            "organization": {
+              "created_at": 1647334517,
+              "framework": "GRI",
+              "id": "01FY6CKTT7P547M2BB70P385EJ",
+              "name": "org1",
+              "updated_at": 1647334517
+            },
+            "role": "member",
+            "updated_at": 1647338141
+          }
+        },
+        "last_viewed_at": 1647338141
+      },
+      {
+        "company": {
+          "categories": [],
+          "company_score": {
+            "id": 10249,
+            "overall_score": null,
+            "pre_score": "4.8",
+            "number_of_change": "6",
+            "is_arrow_up": true,
+            "rank_score": "",
+            "updated_at": 1647334517
+          },
+          "created_at": 1627014251,
+          "id": 8,
+          "industry": {
+            "id": 50,
+            "name": "Metal Fabrication",
+            "sector": {
+              "id": 8,
+              "name": "Industrials"
+            }
+          },
+          "name": "FARFETCH LTD",
+          "name_cn": "可成科技",
+          "ticker": "2474:TT",
+          "updated_at": 1627014251
+        },
+        "created_at": 1647337385,
+        "id": 209,
+        "last_edit_history": {
+          "after_value": "3",
+          "before_value": "6",
+          "change_reason": "okkk",
+          "changed_item": "a Score",
+          "change_category": "governance",
+          "created_at": 1647338141,
+          "data_type": "created_extracted_result_property",
+          "id": 14075,
+          "label": "ok",
+          "update_by": {
+            "created_at": 1647165341,
+            "email_address": "other02_org1@nexusfrontier.tech",
+            "first_name": "Other",
+            "id": "01FY6CMAE9Y6FPH7N0213TMRMX",
+            "language": "en",
+            "last_name": "User02_org1",
+            "organization": {
+              "created_at": 1647334517,
+              "framework": "GRI",
+              "id": "01FY6CKTT7P547M2BB70P385EJ",
+              "name": "org1",
+              "updated_at": 1647334517
+            },
+            "role": "member",
+            "updated_at": 1647338141
+          }
+        },
+        "last_viewed_at": 1647338141
+      },
+      {
+        "company": {
+          "categories": [],
+          "company_score": {
+            "id": 10252,
+            "overall_score": "8",
+            "pre_score": "6.7",
+            "number_of_change": "1",
+            "is_arrow_up": false,
+            "rank_score": "",
+            "updated_at": 1647334517
+          },
+          "created_at": 1627014251,
+          "id": 9,
+          "industry": {
+            "id": 6,
+            "name": "Telecom Services",
+            "sector": {
+              "id": 2,
+              "name": "Communication Services"
+            }
+          },
+          "name": "GALAXY ENTERTAINMENT GROUP LTD",
+          "name_cn": "中国移动有限公司",
+          "ticker": "941:HK",
+          "updated_at": 1627014251
+        },
+        "created_at": 1647337471,
+        "id": 211,
+        "last_edit_history": {
+          "after_value": "6.9",
+          "before_value": "5",
+          "change_reason": "okkk",
+          "changed_item": "a Score",
+          "change_category": "governance",
+          "created_at": 1647165341,
+          "data_type": "created_extracted_result_property",
+          "id": 14075,
+          "label": "ok",
+          "update_by": {
+            "created_at": 1647165341,
+            "email_address": "other02_org1@nexusfrontier.tech",
+            "first_name": "Other",
+            "id": "01FY6CMAE9Y6FPH7N0213TMRMX",
+            "language": "en",
+            "last_name": "User02_org1",
+            "organization": {
+              "created_at": 1647334517,
+              "framework": "GRI",
+              "id": "01FY6CKTT7P547M2BB70P385EJ",
+              "name": "org1",
+              "updated_at": 1647334517
+            },
+            "role": "member",
+            "updated_at": 1647165341
+          }
+        },
+        "last_viewed_at": 1647337471
+      },
+      {
+        "company": {
+          "categories": [],
+          "company_score": {
+            "id": 10251,
+            "overall_score": null,
+            "pre_score": "4",
+            "number_of_change": "3",
+            "is_arrow_up": true,
+            "rank_score": "",
+            "updated_at": 1647334517
+          },
+          "created_at": 1627014251,
+          "id": 10,
+          "industry": {
+            "id": 53,
+            "name": "Real Estate - Development",
+            "sector": {
+              "id": 10,
+              "name": "Real Estate"
+            }
+          },
+          "name": "GAOTU TECHEDU INC",
+          "name_cn": "招商局蛇口工业区控股股份有限公司",
+          "ticker": "001979:CH",
+          "updated_at": 1627014251
+        },
+        "created_at": 1647337388,
+        "id": 210,
+        "last_edit_history": {
+          "after_value": "3",
+          "before_value": "5",
+          "change_reason": "okkk",
+          "changed_item": "a Score",
+          "change_category": "environmental",
+          "created_at": 1646819741,
+          "data_type": "created_extracted_result_property",
+          "id": 14075,
+          "label": "ok",
+          "update_by": {
+            "created_at": 1646819741,
+            "email_address": "other02_org1@nexusfrontier.tech",
+            "first_name": "Other",
+            "id": "01FY6CMAE9Y6FPH7N0213TMRMX",
+            "language": "en",
+            "last_name": "User02_org1",
+            "organization": {
+              "created_at": 1646819741,
+              "framework": "GRI",
+              "id": "01FY6CKTT7P547M2BB70P385EJ",
+              "name": "org1",
+              "updated_at": 1646819741
+            },
+            "role": "member",
+            "updated_at": 1646819741
+          }
+        },
+        "last_viewed_at": 1646819741
+      },
+      {
+        "company": {
+          "categories": [],
+          "company_score": {
+            "id": 10251,
+            "overall_score": null,
+            "pre_score": "4",
+            "number_of_change": "8",
+            "is_arrow_up": true,
+            "rank_score": "",
+            "updated_at": 1647334517
+          },
+          "created_at": 1627014251,
+          "id": 11,
+          "industry": {
+            "id": 53,
+            "name": "Real Estate - Development",
+            "sector": {
+              "id": 10,
+              "name": "Real Estate"
+            }
+          },
+          "name": "JD.COM INC",
+          "name_cn": "招商局蛇口工业区控股股份有限公司",
+          "ticker": "001979:CH",
+          "updated_at": 1627014251
+        },
+        "created_at": 1647337388,
+        "id": 210,
+        "last_edit_history": {
+          "after_value": "3",
+          "before_value": "5",
+          "change_reason": "okkk",
+          "changed_item": "a Score",
+          "change_category": "environmental",
+          "created_at": 1646819741,
+          "data_type": "created_extracted_result_property",
+          "id": 14075,
+          "label": "ok",
+          "update_by": {
+            "created_at": 1646819741,
+            "email_address": "other02_org1@nexusfrontier.tech",
+            "first_name": "Other",
+            "id": "01FY6CMAE9Y6FPH7N0213TMRMX",
+            "language": "en",
+            "last_name": "User02_org1",
+            "organization": {
+              "created_at": 1646819741,
+              "framework": "GRI",
+              "id": "01FY6CKTT7P547M2BB70P385EJ",
+              "name": "org1",
+              "updated_at": 1646819741
+            },
+            "role": "member",
+            "updated_at": 1646819741
+          }
+        },
+        "last_viewed_at": 1646819741
+      },
+      {
+        "company": {
+          "categories": [],
+          "company_score": {
+            "id": 10249,
+            "overall_score": null,
+            "pre_score": "4.8",
+            "is_arrow_up": true,
+            "rank_score": "",
+            "updated_at": 1647334517
+          },
+          "created_at": 1627014251,
+          "id": 17,
+          "industry": {
+            "id": 50,
+            "name": "Metal Fabrication",
+            "sector": {
+              "id": 8,
+              "name": "Industrials"
+            }
+          },
+          "name": "FARFETCH LTD 2",
+          "name_cn": "可成科技",
+          "ticker": "2474:TT",
+          "updated_at": 1627014251
+        },
+        "created_at": 1647337385,
+        "id": 209,
+        "last_edit_history": {
+          "after_value": "3",
+          "before_value": "6",
+          "change_reason": "okkk",
+          "changed_item": "a Score",
+          "change_category": "governance",
+          "created_at": 1647338141,
+          "data_type": "created_extracted_result_property",
+          "id": 14075,
+          "label": "ok",
+          "update_by": {
+            "created_at": 1647165341,
+            "email_address": "other02_org1@nexusfrontier.tech",
+            "first_name": "Other",
+            "id": "01FY6CMAE9Y6FPH7N0213TMRMX",
+            "language": "en",
+            "last_name": "User02_org1",
+            "organization": {
+              "created_at": 1647334517,
+              "framework": "GRI",
+              "id": "01FY6CKTT7P547M2BB70P385EJ",
+              "name": "org1",
+              "updated_at": 1647334517
+            },
+            "role": "member",
+            "updated_at": 1647338141
+          }
+        },
+        "last_viewed_at": 1647338141
+      },
+      {
+        "company": {
+          "categories": [],
+          "company_score": {
+            "id": 10249,
+            "overall_score": null,
+            "pre_score": "4.8",
+            "is_arrow_up": true,
+            "rank_score": "",
+            "updated_at": 1647334517
+          },
+          "created_at": 1627014251,
+          "id": 19,
+          "industry": {
+            "id": 50,
+            "name": "Metal Fabrication",
+            "sector": {
+              "id": 8,
+              "name": "Industrials"
+            }
+          },
+          "name": "FARFETCH LTD 3",
+          "name_cn": "可成科技",
+          "ticker": "2474:TT",
+          "updated_at": 1627014251
+        },
+        "created_at": 1647337385,
+        "id": 209,
+        "last_edit_history": {
+          "after_value": "3",
+          "before_value": "6",
+          "change_reason": "okkk",
+          "changed_item": "a Score",
+          "change_category": "governance",
+          "created_at": 1647338141,
+          "data_type": "created_extracted_result_property",
+          "id": 14075,
+          "label": "ok",
+          "update_by": {
+            "created_at": 1647165341,
+            "email_address": "other02_org1@nexusfrontier.tech",
+            "first_name": "Other",
+            "id": "01FY6CMAE9Y6FPH7N0213TMRMX",
+            "language": "en",
+            "last_name": "User02_org1",
+            "organization": {
+              "created_at": 1647334517,
+              "framework": "GRI",
+              "id": "01FY6CKTT7P547M2BB70P385EJ",
+              "name": "org1",
+              "updated_at": 1647334517
+            },
+            "role": "member",
+            "updated_at": 1647338141
+          }
+        },
+        "last_viewed_at": 1647338141
+      },
+      {
+        "company": {
+          "categories": [],
+          "company_score": {
+            "id": 10249,
+            "overall_score": null,
+            "pre_score": "4.8",
+            "is_arrow_up": true,
+            "rank_score": "",
+            "updated_at": 1647334517
+          },
+          "created_at": 1627014251,
+          "id": 20,
+          "industry": {
+            "id": 50,
+            "name": "Metal Fabrication",
+            "sector": {
+              "id": 8,
+              "name": "Industrials"
+            }
+          },
+          "name": "FARFETCH LTD 4",
+          "name_cn": "可成科技",
+          "ticker": "2474:TT",
+          "updated_at": 1627014251
+        },
+        "created_at": 1647337385,
+        "id": 209,
+        "last_edit_history": {
+          "after_value": "3",
+          "before_value": "6",
+          "change_reason": "okkk",
+          "changed_item": "a Score",
+          "change_category": "governance",
+          "created_at": 1647338141,
+          "data_type": "created_extracted_result_property",
+          "id": 14075,
+          "label": "ok",
+          "update_by": {
+            "created_at": 1647165341,
+            "email_address": "other02_org1@nexusfrontier.tech",
+            "first_name": "Other",
+            "id": "01FY6CMAE9Y6FPH7N0213TMRMX",
+            "language": "en",
+            "last_name": "User02_org1",
+            "organization": {
+              "created_at": 1647334517,
+              "framework": "GRI",
+              "id": "01FY6CKTT7P547M2BB70P385EJ",
+              "name": "org1",
+              "updated_at": 1647334517
+            },
+            "role": "member",
+            "updated_at": 1647338141
+          }
+        },
+        "last_viewed_at": 1647338141
+      }
+    ],
+    "offset": 0,
+    "order": "id",
+    "total_count": 3
+  }
+

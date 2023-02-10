@@ -1,0 +1,80 @@
+{
+  "login": {
+    "login": "Log in",
+    "enter_your_credentials": "Enter your credentials",
+    "email_address": "Email Address",
+    "password": "Password",
+    "forgot_password": "Forgot Password",
+    "email_or_password_is_invalid": "Email or password is invalid, please try again.",
+    "you": "You",
+    "today": "Today"
+  },
+  "bread_crumb": {
+    "news": "News"
+  },
+  "forgot_password": {
+    "please_enter_the_email": "Please enter the email address you use for your account below and we will send you a link to reset your password.",
+    "email_address": "Email address",
+    "email_is_invalid": "Email is invalid, please try again.",
+    "done": "Done",
+    "reset_password_request_successful": "Reset password request successful. Please check your email to continue. "
+  },
+  "email_template": {
+    "message": "Hello, We're sending you this email because you requested a password reset. Click on the link below to create a new password: <Password reset link> If you didn't request a password reset, you can ignore this email. Your password will not be changed."
+  },
+  "dashboard_header": {
+    "dashboard": "Dashboard",
+    "rank_performance": "Rank Performance",
+    "settings": "Settings",
+    "profile": "Profile",
+    "logout": "Logout"
+  },
+  "dashboard_search_bar": {
+    "search_company": "Search company",
+    "no_options": "No options"
+  },
+  "dashboard_last_changed_companies": {
+    "last_changed_companies": "Last Changed Companies",
+    "number_of_change": "Number of change",
+    "ticker": "Ticker",
+    "company": "Company",
+    "esg_score": "ESG Score",
+    "last_updated": "Last updated",
+    "history": "History",
+    "and": "and",
+    "weightage_have_updated": "weightage have been updated",
+    "weightage_has_updated": "weightage has been updated",
+    "score_has_updated": "score has been updated"
+  },
+
+  "portfolio_rating_history": {
+    "portfolio_rating_history": "Ranking History",
+    "portfolio_score": "Portfolio Score",
+    "benchmark_avg": "Benchmark Avg"
+  }
+  ,
+  "dashboard_esg_scores_wip": {
+    "esg_scores_wip": "ESG Score WIP",
+    "overall_score_pending": "Pending",
+    "priority_level": {
+      "high": "High",
+      "mid": "Mid"
+    }
+  },
+  "dashboard_top_5_in_country": {
+    "top_5_in_country": "Top 5 in Country",
+    "total": "Total"
+  },
+  "dashboard_bottom_5_in_country": {
+    "bottom_5_in_country": "Bottom 5 in Country",
+    "total": "Total",
+    "company": "Company",
+    "sector": "Sector",
+    "overall_score": "Overall score"
+  },
+  "esg_progress": {
+    "esg_research_progress": "ESG Research Progress",
+    "company": "Company",
+    "progress": "Progress"
+  }
+}

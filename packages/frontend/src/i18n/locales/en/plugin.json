@@ -1,0 +1,85 @@
+{
+  "dashboard_plugin_notification": {
+    "latest_news": "Latest News",
+    "view_all": "View all",
+    "download_the_ANAFES" : "Download the ANAFES plugin to add & tag news articles into selected companies of your choice.",
+    "download_now": "Download Now",
+    "how_it_works": "HOW IT WORKS",
+    "install_our_plugin": "Install our plugin",
+    "anafes_here": "ANAFES here",
+    "to_get_fully_feature": "to fully experience news monitoring feature!"
+  },
+  "news_screen_plugin_notification": {
+    "download_the_ANAFES": "Download the ANAFES plugin to add more news articles.",
+    "when_browsing": "When browsing any news online, the plugin allows you to tag, collect and score this news article on its ESG impact",
+    "download_now": "Download Now",
+    "how_it_works": "HOW IT WORKS"
+  },
+  "how_it_works_popup": {
+    "how_it_works": "How it Works",
+    "the_ANAFES_web_plugin": "The ANAFES Web Plugin is a web-extension tool that lets its users easily categorize and score any news article that they come across in their research. To use it, follow these steps:",
+    "download_the_ANAFES_web_plugin": "1. Download the ANAFES Web Plugin",
+    "go_to_the_news_article": "2. Go to the news article that you are reading",
+    "open_the_ANAFES_web_plugin": "3. Open the ANAFES Web Plugin extension in the top-right corner of your browser",
+    "tag_the_article": "4. Tag the article with its appropriate categories",
+    "score_the_article": "5. Score the article on its impact to the company's ESG rating",
+    "try_it_now": "Try it Now",
+    "no_firewall": "No firewall? Just download off the MS Edge/Chrome Store!",
+    "go_to_store": "GO TO STORE"
+  },
+  "log_in_plugin": {
+    "login": "Login",
+    "email_address": "Email Address",
+    "password": "Password",
+    "forgot_password": "Forgot Password",
+    "login_button": "Login",
+    "invalid_email_or_password": "Email or password is invalid, please try again."
+  },
+  "notification_when_adding_plugin": {
+    "add_ANAFES_dev": "Add \"ANAFES dev\" to Microsoft Edge?",
+    "the_extension_can": "The extension can:",
+    "read_and_change": "Read and change your data on 127.0.0.1 and ",
+    "read_your_browsing_hisory": "Read your browsing history "
+  },
+  "notification_when_adding_plugin_successfully": {
+    "": "\"ANAFES dev has been added to Microsoft Edge    \nManage your extensions by clicking Settings and more > Extensions\"",
+    "ok": "OK"
+  },
+  "select_company": {
+    "is_this_new": "Is this news relevant?",
+    "yes_no": "Yes/No",
+    "this_is_related_to": "This is related to:",
+    "news_title": "News title:",
+    "done": "Done"
+  },
+  "why_is_it_not_relevant": {
+    "why_is_it": "Why is it not relevant?",
+    "this_is_not_related_to": "This is not related to the company.",
+    "this_is_not_ESG": "This is not ESG related news.",
+    "others": "Others",
+    "done": "Done"
+  },
+  "is_this_news_controversial": {
+    "is_this_news": "Is this news controversial?",
+    "yes_no": "Yes/No",
+    "why_is_this": "Why is it not controversial?",
+    "positive_news": "This is a positive news.",
+    "neutral_news": "This is a neutral news.",
+    "others": "Others"
+  },
+  "score_the_news": {
+    "does_this_belong_to": "Does it belong to any of the following?",
+    "environment_social_governance": "Environment/Social/Governance",
+    "qualitatives/quantitatives": "Qualitatives/Quantitatives ",
+    "score": "Score",
+    "select": "Select"
+  },
+  "all_news_screen": {
+    "latest_news": "Latest News",
+    "more_news": "More News"
+  },
+  "company_news_pages": {
+    "latest_news": "Latest News",
+    "more_news": "More News"
+  }
+}

@@ -1,0 +1,28 @@
+version: "3"
+services:
+  frontend-dev:
+    build: .
+    ports:
+      - "3001:3001"
+    volumes:
+      - ./:/usr/src/aps-frontend
+    networks:
+      - aps-web-frontend_network
+    env_file:
+      - packages/frontend/.env
+
+  storybook:
+    build: ./docker/storybook
+    ports:
+      - "6006:6006"
+    volumes:
+      - ./:/usr/src/aps-frontend
+    networks:
+      - aps-web-frontend_network
+    env_file:
+      - packages/frontend/.env
+    profiles: ["storybook"]
+
+networks:
+  aps-web-frontend_network:
+    name: aps-web-frontend_network

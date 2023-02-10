@@ -1,0 +1,8 @@
+version: "3"
+services:
+  frontend-build:
+    build: .
+    volumes:
+      - ../../:/usr/src/aps-frontend
+    env_file:
+      - ../../packages/frontend/.env

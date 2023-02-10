@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react",
+    "sourceMap": true,
+    "incremental": true,
+    "noImplicitAny": false,
+    "strictNullChecks": false,
+    "strictFunctionTypes": false,
+    "strictBindCallApply": false,
+    "strictPropertyInitialization": false,
+    "noImplicitThis": false,
+    "baseUrl": ".",
+    "experimentalDecorators": true,
+    "rootDirs": ["src", "stories"],
+    "paths": {
+      "aps-admin": ["packages/aps-admin/src/*"],
+      "aps-frontend": ["packages/aps-frontend/src/*"]
+    }
+  },
+
+  "include": ["src/**/*", "stories", "packages/frontend/src/**/*"]
+}

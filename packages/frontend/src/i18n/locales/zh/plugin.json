@@ -1,0 +1,86 @@
+{
+  "dashboard_plugin_notification": {
+    "latest_news": "最新新闻",
+    "view_all": "查看全部",
+    "download_the_ANAFES" : "下载ANAFES插件，添加和标记新闻文章到你选择的公司",
+    "download_now": "现在下载",
+    "how_it_works": "它是如何工作的",
+    "install_our_plugin": "安装我们的插件",
+    "anafes_here": "ANAFES 在这里",
+    "to_get_fully_feature": "全面体验新闻监控功能!"
+  },
+  "news_screen_plugin_notification": {
+    "download_the_ANAFES": "下载 ANAFES 插件以添加更多的新闻文章。",
+    "when_browsing": "当在网上浏览任何新闻时，该插件允许你对这篇新闻文章的ESG影响进行标记、收集和评分。",
+    "download_now": "现在下载",
+    "how_it_works": "它是如何工作的"
+  },
+  "how_it_works_popup": {
+    "how_it_works": "它是如何工作的",
+    "the_ANAFES_web_plugin": "ANAFES网络插件是一个网络扩展工具，可以让用户轻松地对他们在研究中遇到的任何新闻文章进行分类和评分。要使用它，请遵循以下步骤",
+    "download_the_ANAFES_web_plugin": "1. 下载 ANAFES 网络插件",
+    "go_to_the_news_article": "2. 转到你正在阅读的新闻文章",
+    "open_the_ANAFES_web_plugin": "3. 在浏览器的右上角打开ANAFES网络插件扩展程序",
+    "tag_the_article": "4. 给文章加上适当的类别标签",
+    "score_the_article": "5. 根据文章对公司的ESG评级的影响进行评分",
+    "try_it_now": "现在就试试吧",
+    "no_firewall": "没有防火墙？只需从MS Edge/Chrome商店下载!",
+    "go_to_store": "转到商店"
+  },
+  "log_in_plugin": {
+    "login": "登录",
+    "email_address": "电子邮件地址",
+    "password": "密码",
+    "forgot_password": "忘记密码",
+    "login_button": "登录",
+    "invalid_email_or_password": "电子邮件或密码无效，请重试。"
+  },
+  "notification_when_adding_plugin": {
+    "add_ANAFES_dev": "将 \"ANAFES dev \"添加到Microsoft Edge？",
+    "the_extension_can": "该扩展可以。",
+    "read_and_change": "读取和改变你在127.0.0.1上的数据和",
+    "read_your_browsing_hisory": "读取你的浏览历史"
+  },
+  "notification_when_adding_plugin_successfully": {
+    "": "\"ANAFES dev已被添加到Microsoft Edge中\n通过点击 设置和更多\"\">\"\"扩展 \"\"来管理您的扩展\"\"。\"",
+    "ok": "確定"
+  },
+  "select_company": {
+    "is_this_new": "这条新闻是否相关？",
+    "yes_no": "是/否",
+    "this_is_related_to": "这与之相关。",
+    "news_title": "新闻标题。",
+    "done": "完成"
+  },
+  "why_is_it_not_relevant": {
+    "why_is_it": "为什么不相关？",
+    "this_is_not_related_to": "这与该公司无关。",
+    "this_is_not_ESG": "这不是ESG相关的新闻。",
+    "others": "其他",
+    "done": "已完成"
+  },
+  "is_this_news_controversial": {
+    "is_this_news": "这条新闻是否具有争议性？",
+    "yes_no": "是/否",
+    "why_is_this": "为什么不具争议性？",
+    "positive_news": "这是一个积极的新闻。",
+    "neutral_news": "这是一个中立的新闻。",
+    "others": "其他"
+  },
+  "score_the_news": {
+    "does_this_belong_to": "它是否属于以下任何一种？",
+    "environment_social_governance": "环境/社会/治理",
+    "qualitatives/quantitatives": "质量/数量",
+    "score": "分数",
+    "select": "选择"
+  },
+  "all_news_screen": {
+    "latest_news": "热门新闻",
+    "more_news": "更多新闻"
+  },
+  "company_news_pages": {
+    "latest_news": "热门新闻",
+    "more_news": "更多新闻"
+  }
+}
+

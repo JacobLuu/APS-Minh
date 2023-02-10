@@ -1,0 +1,80 @@
+{
+  "login": {
+    "login": "登录",
+    "enter_your_credentials": "输入你的证书",
+    "email_address": "电子邮件地址",
+    "password": "密码",
+    "forgot_password": "忘记密码",
+    "email_or_password_is_invalid": "电子邮件或密码无效，请重试。",
+    "you": "您",
+    "today": "今天"
+  },
+  "bread_crumb": {
+    "news": "新闻"
+  },
+  "forgot_password": {
+    "please_enter_the_email": "请在下面输入您用于账户的电子邮件地址，我们将向您发送重置密码的链接。",
+    "email_address": "电子邮件地址",
+    "email_is_invalid": "电子邮件无效，请重试。",
+    "done": "已完成",
+    "reset_password_request_successful": "重置密码请求成功。请检查您的电子邮件以继续。"
+  },
+  "email_template": {
+    "message": "你好，我们向你发送这封邮件是因为你要求重置密码。请点击下面的链接，创建一个新的密码。<密码重置链接> 如果你没有要求重置密码，你可以忽略这封邮件。您的密码将不会被更改。"
+  },
+  "dashboard_header": {
+    "dashboard": "仪表板",
+    "rank_performance": "排名表现",
+    "settings": "设置",
+    "profile": "个人资料",
+    "logout": "注销"
+  },
+  "dashboard_search_bar": {
+    "search_company": "搜索公司",
+    "no_options": "没有选择"
+  },
+  "dashboard_last_changed_companies": {
+    "last_changed_companies": "最近查看的公司",
+    "number_of_change": "变更次数",
+    "ticker": "股票代码",
+    "company": "公司",
+    "esg_score": "ESG得分",
+    "last_updated": "最后更新",
+    "history": "历史",
+    "and": "您",
+    "weightage_have_updated": "权重已更新",
+    "weightage_has_updated": "权重已更新",
+    "score_has_updated": "分数已更新"
+  },
+
+  "portfolio_rating_history": {
+    "portfolio_rating_history": "投资组合评级历史",
+    "portfolio_score": "投资组合得分",
+    "benchmark_avg": "基准平均值"
+  }
+  ,
+  "dashboard_esg_scores_wip": {
+    "esg_scores_wip": "正在进行的ESG评分",
+    "overall_score_pending": "待定",
+    "priority_level": {
+      "high": "高",
+      "mid": "中"
+    }
+  },
+  "dashboard_top_5_in_country": {
+    "top_5_in_country": "全国前5名",
+    "total": "总数"
+  },
+  "dashboard_bottom_5_in_country": {
+    "bottom_5_in_country": "全国倒数第5名",
+    "total": "总数",
+    "company": "企业",
+    "sector": "行业",
+    "overall_score": "总分"
+  },
+  "esg_progress": {
+    "esg_research_progress": "ESG研究进展",
+    "company": "公司",
+    "progress": "进度"
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "framework_view_mode": {
+    "ESG_framework": "ESG framework settings",
+    "if_you_have": "If you have your own ESG framework, feel free to upload the framework using our template and we would update the system accordingly.",
+    "download_template" : "Download Template",
+    "upload": "Upload",
+    "environmental": "Environmental",
+    "social": "Social",
+    "governance": "Governance",
+    "what_to_measure": "What to measure",
+    "description": "Description",
+    "qualitative": "Qualitative",
+    "quantitative": "Quantitative"
+  },
+  "upload_popup": {
+    "upload": "Upload",
+    "file": "File",
+    "drag_drop": "Drag & Drop file here, Or Click to select file",
+    "ok": "OK",
+    "cancel": "CANCEL"
+  },
+  "framwork_preview_mode": {
+    "framework_imported": "Framework imported successfully",
+    "save": "Save",
+    "cancel": "CANCEL"
+  },
+  "upload_invalid_format": {
+    "there_is_an_issue": "There is an issue with importing framework. Please check the format again."
+  },
+  "popup_message_to_confirm": {
+    "clicking_ok": "\"Clicking ‘OK’ will replace system’s default ESG framework with your own framework.  All previously saved scores, weightages,  qualitative answers and manually input disclosures will be cleared.\nWould you like to proceed?\"",
+    "ok": "OK",
+    "cancel": "CANCEL"
+  },
+  "replacing_process": {
+    "framework_successfully_applied": "Framework successfully applied."
+  },
+  "language": {
+    "framework": "Framework",
+    "language": "Language",
+    "select_your_default_language": "Select your default language:",
+    "save": "Save"
+  },
+  "upload_framework_processing": {
+    "just_few_minutes": "Just a few minutes !",
+    "upload_framework_description": "We are updating your framework. Please return in a few minutes.",
+    "log_out": "Log out"
+  },
+  "gri_standards": {
+    "gri_standards": "GRI Standards",
+    "default": "Default",
+    "the_gri_standards_represent": "The GRI Standards represent global best practice for reporting publicly on a range of economic, environmental and social impacts.",
+    "apply": "Apply",
+    "applied": "Applied"
+  },
+  "custom_framework": {
+    "custom_framework": "Custom Framework",
+    "if_you_have": "If you have your own ESG framework, feel free to upload the framework using our template and we would update the system accordingly.",
+    "apply": "Apply",
+    "applied": "Applied",
+    "create": "Create",
+    "edit_setting": "Edit Setting"
+  },
+  "create_framework_popup": {
+    "set_up_framework": "Set Up Framework",
+    "framework_name": "Framework Name *",
+    "description": "Description (Optional)",
+    "download_the_framework": "Download the Framework template and fill in your framework details.",
+    "import": "2. Import your completed framework file to the system by clicking the button below",
+    "browser_file": "BROWSE FILE",
+    "completed": "COMPLETED",
+    "submit": "Submit"
+  }
+}

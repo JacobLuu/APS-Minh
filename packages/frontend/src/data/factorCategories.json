@@ -1,0 +1,102 @@
+[
+  {
+    "id": 11,
+    "name": "Carbon Footprint"
+  },
+  {
+    "id": 22,
+    "name": "Energy Efficiency"
+  },
+  {
+    "id": 33,
+    "name": "Environmental Fines"
+  },
+  {
+    "id": 44,
+    "name": "Risk to Oceans"
+  },
+  {
+    "id": 55,
+    "name": "Water Efficiency"
+  },
+  {
+    "id": 66,
+    "name": "Pollution & Waste"
+  },
+  {
+    "id": 77,
+    "name": "Employee Diversity"
+  },
+  {
+    "id": 88,
+    "name": "Health & Safety"
+  },
+  {
+    "id": 99,
+    "name": "Learning & Development"
+  },
+  {
+    "id": 111,
+    "name": "Employee Turnover"
+  },
+  {
+    "id": 222,
+    "name": "Sensitivity Towards Human Rights"
+  },
+  {
+    "id": 333,
+    "name": "Abuse of Child Labour"
+  },
+  {
+    "id": 444,
+    "name": "Contribution to Social Welfare and Growth"
+  },
+  {
+    "id": 555,
+    "name": "Product Liability"
+  },
+  {
+    "id": 666,
+    "name": "Bribery & Corruption Prevention"
+  },
+  {
+    "id": 777,
+    "name": "Privacy & Data Security Protection"
+  },
+  {
+    "id": 888,
+    "name": "Ownership Structure"
+  },
+  {
+    "id": 999,
+    "name": "Related Party Transactions"
+  },
+  {
+    "id": 1111,
+    "name": "Management Experience & Past Records"
+  },
+  {
+    "id": 2222,
+    "name": "Profit Manipulation"
+  },
+  {
+    "id": 3333,
+    "name": "Acquisition Accounting"
+  },
+  {
+    "id": 4444,
+    "name": "Debt Window Dressing"
+  },
+  {
+    "id": 5555,
+    "name": "Excess Capital Raising"
+  },
+  {
+    "id": 6666,
+    "name": "Rising Inventory/receivables"
+  },
+  {
+    "id": 7777,
+    "name": "Purchase of Company Growth"
+  }
+]

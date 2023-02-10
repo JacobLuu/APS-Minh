@@ -1,0 +1,248 @@
+{
+  "overall_score": {
+    "overall_score": "Overall Score",
+    "environmental": "Environmental ",
+    "social": "Social ",
+    "governance": "Governance ",
+    "edit_history": "Edit History"
+  },
+  "edit_weightage": {
+    "overall_score": "OVERALL SCORE",
+    "dimension": "DIMENSION",
+    "score_or_grade": "Score (Grade)",
+    "weightage": "Weightage",
+    "environmental": "Environmental",
+    "social": "Social",
+    "governance": "Governance",
+    "reasons_for_change": "Reasons for change:",
+    "cancel": "Cancel",
+    "save": "Save",
+    "error_message": {
+      "required_field": "This field is required"
+    }
+  },
+  "edit_history": {
+    "edit_history": "EDIT HISTORY",
+    "reasons_for_change": "Reasons for change:",
+    "last_updated_on": "Last updated on",
+    "changed": "changed",
+    "from": "from",
+    "to": "to",
+    "of": "of",
+    "created": "created",
+    "for": "for",
+    "null": "null",
+    "score": "Score",
+    "weightage": "Weightage",
+    "new_answer_text": "a new answer text:",
+    "new_disclosure": "a new Disclosure:",
+    "a_source": "a Source",
+    "a_score": "a Score"
+  },
+  "latest_news": {
+    "latest_news": "Latest News",
+    "view_all": "View all"
+  },
+  "category_tab": {
+    "environmental": "Environmental",
+    "social": "Social",
+    "governance": "Governance",
+    "score": "Score:",
+    "disclosure_found": "Disclosure Found:",
+    "add_disclosure": "Add Disclosure",
+    "edit_history": "Edit History",
+    "factor": "Factor",
+    "score_header": "Score",
+    "weightage": "Weightage",
+    "last_updated": "Last updated",
+    "weightage_tool_tip": "This is defined by the ESG settings of your company.",
+    "no_disclosure_found": "No disclosure found"
+  },
+  "qualitative_quantitative": {
+    "qualitative": "QUALITATIVE",
+    "quantitative": "QUANTITATIVE"
+  },
+  "factor_detail_page": {
+    "factor_score": "FACTOR SCORE",
+    "qualitative": "Qualitative",
+    "quantitative": "Quantitative",
+    "weightage": "(Weightage)",
+    "edit_history": "Edit History"
+  },
+  "edit_q&q_weightage": {
+    "overall_score": "OVERALL SCORE",
+    "score": "Score",
+    "weightage": "Weightage",
+    "qualitative": "Qualitative",
+    "quantitative": "Quantitative"
+  },
+  "qualitative_view_mode": {
+    "qualitative": "Qualitative",
+    "edit_all": "Edit All",
+    "edit_history": "Edit History",
+    "metric_score": "METRIC SCORE",
+    "weightage_uppercase": "WEIGHTAGE",
+    "answer": "ANSWER",
+    "disclosure": "Disclosure",
+    "score": "Score",
+    "weightage_lowercase": "Weightage",
+    "source": "Source",
+    "add_answer": "Add Answer"
+  },
+  "qualitative_edit_mode": {
+    "qualitative": "Qualitative",
+    "metric_score": "METRIC SCORE",
+    "weightage_uppercase": "WEIGHTAGE",
+    "answer": "Answer",
+    "reason_for_change": "Reason for change:",
+    "reason": "Reason*",
+    "disclosure": "Disclosure",
+    "score": "Score",
+    "weightage_lowercase": "Weightage",
+    "source": "Source",
+    "source_name": "Source Name",
+    "cancel": "Cancel",
+    "save": "Save",
+    "edit": "Edit",
+    "others": "Others",
+    "error_message": {
+      "required_field": "This field is required"
+    }
+  },
+  "add_answer_popup": {
+    "add_answer": "Add Answer",
+    "score": "Score",
+    "source": "Source",
+    "reason_for_change": "Reason for Changes:",
+    "cancel": "Cancel",
+    "save": "Save",
+    "required_field": "This field is required"
+  },
+  "qualitative_edit_history": {
+    "edit_history": "Edit History",
+    "reasons_for_change": "Reasons for change",
+    "last_updated_on": "Last updated on",
+    "changed": "changed",
+    "weightage_from": "weightage from",
+    "changed_from": "changed from",
+    "answer_from": "answer from",
+    "created_new_disclosure": "created a new Disclosure",
+    "created_score": "created a Score",
+    "created_source": "created a Source",
+    "for": "for",
+    "change_disclosure": "change Disclosure",
+    "score_from": "score from",
+    "source_from": "source from",
+    "to": "to"
+  },
+  "quantitative_view_mode": {
+    "metrics": "Metrics",
+    "edit_all": "Edit All",
+    "edit_history": "Edit History",
+    "metric_score": "METRIC SCORE",
+    "weightage_uppercase": "WEIGHTAGE",
+    "disclosure": "Disclosure",
+    "score": "Score",
+    "weightage_lowercase": "Weightage",
+    "source": "Source",
+    "add_answer": "Add Answer"
+  },
+  "quantitative_edit_mode": {
+    "metrics": "Metrics",
+    "metric_score": "METRIC SCORE",
+    "weightage_uppercase": "WEIGHTAGE",
+    "disclosure": "Disclosure",
+    "score": "Score",
+    "weightage_lowercase": "Weightage",
+    "source": "Source",
+    "reason_for_change": "Reason for change",
+    "cancel": "Cancel",
+    "save": "Save",
+    "error_message":{
+      "required_field": "This field is required"
+    }
+  },
+  "quantitative_edit_history": {
+    "edit_history": "Edit History",
+    "reasons_for_change": "Reasons for change",
+    "last_updated_on": "Last updated on",
+    "changed": "changed",
+    "weightage_from": "weightage from",
+    "changed_from": "changed from",
+    "answer_from": "answer from",
+    "created_new_disclosure": "created a new Disclosure",
+    "created_score": "created a Score",
+    "created_source": "created a Source",
+    "score": "score",
+    "weightage": "weightage",
+    "source": "source",
+    "from": "from",
+    "for": "for",
+    "score_from": "score from",
+    "source_from": "source from",
+    "to": "to"
+  },
+  "source_view_mode": {
+    "input": "INPUT",
+    "output": "OUTPUT",
+    "current_view": "Currently viewing:",
+    "result": "RESULTS",
+    "jump_to_page": "Jump to page:",
+    "score": "SCORE",
+    "edit_all": "Edit All",
+    "edit_history": "Edit History",
+    "disclosure": "Disclosure"
+  },
+  "source_edit_mode": {
+    "score":"SCORE",
+    "cancel":"Cancel",
+    "save":"Save",
+    "disclosure":"Disclosure",
+    "unit":"Unit",
+    "reason_for_change":"Reason for change",
+    "range_of_score":"Score has to be between 0-10",
+    "required_field":"This field is required"
+  },
+  "source_edit_history": {
+    "edit_history": "Edit History",
+    "reasons_for_change": "Reasons for change",
+    "last_updated_on": "Last updated on",
+    "changed_score_metric": "changed Score of Metric",
+    "changed_disclosure": "changed disclosure of",
+    "changed_unit": "change Unit of",
+    "change_from": "from",
+    "change_to": "to"
+  },
+  "add_disclosure_popup": {
+    "add_disclosure": "Add Disclosure",
+    "select_factor": "Select Factor*",
+    "select_q_or_q": "Select Qualitative / Quantitative*",
+    "select_metric": "Select Metric*",
+    "select_document": "Select Document*",
+    "select_year": "Year*",
+    "source": "Source",
+    "source_name": "Source name*",
+    "score": "Score",
+    "range_of_score": "Score has to be between 0-10",
+    "disclosure": "Disclosure",
+    "required_field": "This field is required",
+    "reason_for_change": "Reason for changes:",
+    "cancel": "Cancel",
+    "save": "Save",
+    "others": "Others",
+    "error_message": {
+      "factor": "Factor must be under 1000 characters.",
+      "source_name": "Source name must be between 1-200 characters.",
+      "answer": "Answer must be between 1-500 characters.",
+      "reason_for_change": "Reason for change must be between 1-500 characters.",
+      "analyst_answer": "Analyst answer must be between 1-500 characters.",
+      "year": "Year is required and must be from 1900 to the current year.",
+      "unit": "Unit must be between 1-500 characters."
+    }
+  },
+  "pdf_viewer": {
+    "page": "page",
+    "conflict_error_message": "Some one has already updated the data. Please reload this screen.",
+    "something_wrong_error_message": "Sorry something is wrong. Please reload this page."
+  }
+}

@@ -1,0 +1,91 @@
+[{
+  "id": 1,
+  "rank": 1,
+  "companyName": "Air China Ltd",
+  "sector": "Basic Industries",
+  "overall_score": 9.9,
+  "environment_score": 9.1,
+  "social_score": 6.1,
+  "governance_score": 2.0
+}, {
+  "id": 2,
+  "rank": 2,
+  "companyName": "China Resources Medical Holding Ltd",
+  "sector": "Consumer Services",
+  "overall_score": 9.7,
+  "environment_score": 9.2,
+  "social_score": 0.3,
+  "governance_score": 8.1
+}, {
+  "id": 3,
+  "rank": 3,
+  "companyName": "Nexus FrontierTech Ltd",
+  "sector": "Technology",
+  "overall_score": 9.0,
+  "environment_score": 8.0,
+  "social_score": 9.8,
+  "governance_score": 6.4
+}, {
+  "id": 4,
+  "rank": 4,
+  "companyName": "Vtechcom Ltd",
+  "sector": "Health Care",
+  "overall_score": 8.5,
+  "environment_score": 8.5,
+  "social_score": 5.0,
+  "governance_score": 7.8
+}, {
+  "id": 5,
+  "rank": 5,
+  "companyName": "Cloud Enterprise China Ltd",
+  "sector": "Finance",
+  "overall_score": 8.3,
+  "environment_score": 8.3,
+  "social_score": 5.1,
+  "governance_score": null
+}, {
+  "id": 6,
+  "rank": 6,
+  "companyName": "Milky Tech Anderson Limited",
+  "sector": "Basic Industries",
+  "overall_score": 7.6,
+  "environment_score": 7.6,
+  "social_score": null,
+  "governance_score": null
+}, {
+  "id": 7,
+  "rank": 7,
+  "companyName": "Inviview & Technology Ltd",
+  "sector": "Finance",
+  "overall_score": 7.4,
+  "environment_score": 7.4,
+  "social_score": 1.3,
+  "governance_score": 8.0
+}, {
+  "id": 8,
+  "rank": 8,
+  "companyName": "Nongfu Spring Resource Ltd",
+  "sector": "Basic Industries",
+  "overall_score": 6.9,
+  "environment_score": 5.9,
+  "social_score": 1.6,
+  "governance_score": null
+}, {
+  "id": 9,
+  "rank": 9,
+  "companyName": "Beetsofl Technology Ltd",
+  "sector": "Capital Goods",
+  "overall_score": 5.8,
+  "environment_score": 7.3,
+  "social_score": null,
+  "governance_score": 2.0
+}, {
+  "id": 10,
+  "rank": 10,
+  "companyName": "Shelby Brother Import and Export Limited",
+  "sector": "Health Care",
+  "overall_score": null,
+  "environment_score": null,
+  "social_score": null,
+  "governance_score": null
+}]

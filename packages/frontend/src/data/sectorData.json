@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "Basic Materials"
+  },
+  {
+    "id": 2,
+    "name": "Communication Services"
+  },
+  {
+    "id": 3,
+    "name": "Consumer Cyclical"
+  },
+  {
+    "id": 4,
+    "name": "Consumer Defensive"
+  },
+  {
+    "id": 5,
+    "name": "Energy"
+  },
+  {
+    "id": 6,
+    "name": "Financial Services"
+  },
+  {
+    "id": 7,
+    "name": "Healthcare"
+  },
+  {
+    "id": 8,
+    "name": "Industrials"
+  },
+  {
+    "id": 9,
+    "name": "Packaging Containers"
+  },
+  {
+    "id": 10,
+    "name": "Real Estate"
+  },
+  {
+    "id": 11,
+    "name": "Technology"
+  },
+  {
+    "id": 12,
+    "name": "Utilities"
+  }
+]

@@ -1,0 +1,4 @@
+export default {
+  CLIENT_ID: process.env.REACT_APP_FRONTEND_CLIENT_ID,
+  CLIENT_SECRET: process.env.REACT_APP_FRONTEND_CLIENT_SECRET,
+};

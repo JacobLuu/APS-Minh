@@ -1,0 +1,47 @@
+{
+  "my_details": {
+    "my_details": "个人信息",
+    "first_name": "名字",
+    "last_name": "姓氏",
+    "email_address": "电子邮件地址",
+    "change_password": "更改密码"
+  },
+  "my_details_edit": {
+    "my_details": "我的详细资料",
+    "first_name": "名字",
+    "last_name": "姓氏",
+    "email_address": "电子邮件地址",
+    "cancel": "取消",
+    "save": "保存",
+    "required_message": "此栏为必填项",
+    "first_name_invalid": "名字是无效的",
+    "last_name_invalid": "姓氏是无效的"
+  },
+  "change_password": {
+    "change_password": "更改密码",
+    "format_password_message": "请输入一个新的密码。您的密码必须是字母数字，在8至30个字符之间，至少由1个大写字母、1个小写字母、1个数字和1个特殊字符（@、$、！、&等）组成。",
+    "old_password": "旧密码 ",
+    "new_password": "新密码 ",
+    "repeat_new_password": "重复新密码 ",
+    "repeat_password": "重复密码",
+    "old_password_incorrect": "你输入的旧密码是不正确的。",
+    "new_password_cant_same_old_password": "新密码不能与旧密码相同。",
+    "password_not_match_format": "密码不符合要求的格式。请再试一次。",
+    "password_reset_success": "密码已被重置，请重新登录.",
+    "repeat_password_wrong": "密码不匹配。请再试一次.",
+    "save": "保存"
+  },
+  "my_team": {
+    "my_team": "我的 团队",
+    "you": "你",
+    "name": "命名",
+    "email_address": "电子邮件地址",
+    "role": "职位",
+    "action": "行动",
+    "member": "会员",
+    "admin": "管理",
+    "make_admin": "成为管理员",
+    "make_member": "成为会员",
+    "rows_per_page": "每页的行数"
+  }
+}

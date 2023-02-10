@@ -1,0 +1,47 @@
+{
+  "my_details": {
+    "my_details": "My Details",
+    "first_name": "First name",
+    "last_name": "Last name",
+    "email_address": "Email address",
+    "change_password": "CHANGE PASSWORD"
+  },
+  "my_details_edit": {
+    "my_details": "MY DETAILS",
+    "first_name": "First name",
+    "last_name": "Last name",
+    "email_address": "Email address",
+    "cancel": "CANCEL",
+    "save": "Save",
+    "required_message": "This field is required",
+    "first_name_invalid": "First name is invalid",
+    "last_name_invalid": "Last name is invalid"
+  },
+  "change_password": {
+    "change_password": "Change password",
+    "format_password_message": "Please enter a new password. Your password must be alphanumeric, between 8 to 30 characters, consists of at least 1 capital letter, 1 lowercase letter, 1 digit and 1 special character (@, $, !, &, etc).",
+    "old_password": "Old password",
+    "new_password": "New password",
+    "repeat_new_password": "Repeat new password",
+    "repeat_password": "Repeat Password",
+    "old_password_incorrect": "The old password you have entered is incorrect.",
+    "new_password_cant_same_old_password": "New password cannot be the same as old password.",
+    "password_not_match_format": "Password does not match the requested format. Please try again.",
+    "password_reset_success": "Password has been reset, please login again.",
+    "repeat_password_wrong": "Passwords do not match. Please try again.",
+    "save": "Save"
+  },
+  "my_team": {
+    "my_team": "My Team",
+    "you": "You",
+    "name": "Name",
+    "email_address": "Email Address",
+    "role": "Role",
+    "action": "Action",
+    "member": "Member",
+    "admin": "Admin",
+    "make_admin": "Make Admin",
+    "make_member": "Make Member",
+    "rows_per_page": "Rows per page"
+  }
+}
